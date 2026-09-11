@@ -1,5 +1,5 @@
 {
- "captured_at": "2026-09-11T00:15:29+00:00",
+ "captured_at": "2026-09-11T00:40:53+00:00",
  "season": "2026",
  "week": 1,
  "provenance": {
@@ -12,8 +12,8 @@
   "seed": 3159238176
  },
  "files": {
-  "projections": 6621,
-  "opponents": 47583,
+  "projections": 6608,
+  "opponents": 47582,
   "injuries": 26117,
   "rankings": 102
  }

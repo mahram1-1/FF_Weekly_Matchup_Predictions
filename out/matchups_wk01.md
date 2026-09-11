@@ -3,12 +3,12 @@
 
 | Matchup | Projected | Win odds |
 |---|---|---|
-| Chase Brown v. BOE vs Likely Tuten my Reichard | 116–115 | 50% / 50% |
-| Mike HubbaChuba vs Nastey Mastey | 117–116 | 51% / 49% |
-| Evo Mega Knight vs HYPE BEASTS | 118–121 | 47% / 53% |
-| samlewittes vs Soudry | 118–122 | 44% / 56% |
-| Mayebe shit vs Allentown | 116–112 | 57% / 43% |
-| Montgomery Bus Boycott vs Alleged | 112–121 | 38% / 62% |
+| Chase Brown v. BOE vs Likely Tuten my Reichard | 115–116 | 50% / 50% |
+| Mike HubbaChuba vs Nastey Mastey | 117–117 | 49% / 51% |
+| Evo Mega Knight vs HYPE BEASTS | 117–120 | 46% / 54% |
+| samlewittes vs Soudry | 118–121 | 45% / 55% |
+| Mayebe shit vs Allentown | 117–111 | 59% / 41% |
+| Montgomery Bus Boycott vs Alleged | 112–121 | 39% / 61% |
 
 ---
 
@@ -18,7 +18,7 @@
 
 | Team | If they hit their floor | Expected | If they hit their ceiling |
 |---|---|---|---|
-| Chase Brown v. BOE | 89 → **12%** | 115 → **50%** | 143 → **89%** |
+| Chase Brown v. BOE | 89 → **11%** | 114 → **50%** | 142 → **89%** |
 | Likely Tuten my Reichard | 88 → **9%** | 115 → **50%** | 144 → **91%** |
 
 *Floor and ceiling are the 10th and 90th percentile of that team's simulated total. Win odds are the share of simulations the opponent finishes below that score.*
@@ -35,8 +35,8 @@
 
 | Player | Pos | Proj | Floor | Ceiling | Bust | Neither | Boom |
 |---|---|---|---|---|---|---|---|
+| Jonathan Taylor | RB | 19.1 | 8.5 | 30.9 | 16% | **68%** | 16% |
 | Nico Collins | WR | 16.4 | 6.3 | 28.0 | 21% | **60%** | 19% |
-| Jonathan Taylor | RB | 18.8 | 8.4 | 30.5 | 16% | **68%** | 16% |
 | Travis Etienne | RB | 14.5 | 5.3 | 25.3 | 21% | **58%** | 20% |
 
 ---
@@ -47,8 +47,8 @@
 
 | Team | If they hit their floor | Expected | If they hit their ceiling |
 |---|---|---|---|
-| Mike HubbaChuba | 90 → **10%** | 116 → **51%** | 146 → **92%** |
-| Nastey Mastey | 90 → **10%** | 116 → **49%** | 144 → **89%** |
+| Mike HubbaChuba | 89 → **9%** | 116 → **49%** | 145 → **90%** |
+| Nastey Mastey | 90 → **11%** | 116 → **51%** | 144 → **90%** |
 
 *Floor and ceiling are the 10th and 90th percentile of that team's simulated total. Win odds are the share of simulations the opponent finishes below that score.*
 
@@ -57,16 +57,16 @@
 | Player | Pos | Proj | Floor | Ceiling | Bust | Neither | Boom |
 |---|---|---|---|---|---|---|---|
 | Amon-Ra St. Brown | WR | 20.2 | 7.7 | 34.4 | 21% | **60%** | 19% |
-| Drake London | WR | 15.4 | 5.9 | 26.3 | 21% | **60%** | 19% |
+| Drake London | WR | 14.8 | 5.7 | 25.4 | 21% | **60%** | 19% |
 | Trey McBride | TE | 14.2 | 5.1 | 25.0 | 23% | **58%** | 20% |
 
 **Nastey Mastey — players to watch**
 
 | Player | Pos | Proj | Floor | Ceiling | Bust | Neither | Boom |
 |---|---|---|---|---|---|---|---|
-| Justin Jefferson | WR | 17.1 | 6.5 | 29.1 | 21% | **60%** | 19% |
-| Jalen Hurts | QB | 22.4 | 12.2 | 32.1 | 12% | **79%** | 10% |
-| Colston Loveland | TE | 13.9 | 4.9 | 24.4 | 23% | **58%** | 19% |
+| Justin Jefferson | WR | 17.4 | 6.6 | 29.6 | 21% | **60%** | 19% |
+| Jalen Hurts | QB | 22.8 | 12.3 | 32.5 | 12% | **79%** | 10% |
+| Omarion Hampton | RB | 15.9 | 7.0 | 25.5 | 16% | **68%** | 15% |
 
 *Malik Nabers is Questionable, 63% to play.*
 
@@ -78,8 +78,8 @@
 
 | Team | If they hit their floor | Expected | If they hit their ceiling |
 |---|---|---|---|
-| Evo Mega Knight | 90 → **7%** | 117 → **45%** | 147 → **88%** |
-| HYPE BEASTS | 93 → **13%** | 120 → **55%** | 150 → **92%** |
+| Evo Mega Knight | 89 → **7%** | 116 → **43%** | 146 → **87%** |
+| HYPE BEASTS | 92 → **14%** | 120 → **56%** | 150 → **93%** |
 
 *Floor and ceiling are the 10th and 90th percentile of that team's simulated total. Win odds are the share of simulations the opponent finishes below that score.*
 
@@ -87,9 +87,9 @@
 
 | Player | Pos | Proj | Floor | Ceiling | Bust | Neither | Boom |
 |---|---|---|---|---|---|---|---|
-| Bijan Robinson | RB | 20.1 | 8.9 | 32.5 | 16% | **68%** | 16% |
-| Javonte Williams | RB | 17.7 | 7.9 | 28.6 | 16% | **68%** | 16% |
-| George Pickens | WR | 15.8 | 6.0 | 26.8 | 21% | **60%** | 19% |
+| Bijan Robinson | RB | 19.6 | 8.7 | 31.8 | 16% | **68%** | 16% |
+| Javonte Williams | RB | 17.4 | 7.7 | 28.1 | 16% | **68%** | 16% |
+| George Pickens | WR | 15.6 | 5.9 | 26.5 | 21% | **60%** | 19% |
 
 **HYPE BEASTS — players to watch**
 
@@ -107,8 +107,8 @@
 
 | Team | If they hit their floor | Expected | If they hit their ceiling |
 |---|---|---|---|
-| samlewittes | 90 → **7%** | 117 → **43%** | 147 → **86%** |
-| Soudry | 94 → **14%** | 121 → **57%** | 152 → **93%** |
+| samlewittes | 90 → **7%** | 117 → **44%** | 146 → **87%** |
+| Soudry | 94 → **14%** | 120 → **56%** | 150 → **93%** |
 
 *Floor and ceiling are the 10th and 90th percentile of that team's simulated total. Win odds are the share of simulations the opponent finishes below that score.*
 
@@ -116,7 +116,7 @@
 
 | Player | Pos | Proj | Floor | Ceiling | Bust | Neither | Boom |
 |---|---|---|---|---|---|---|---|
-| DeVonta Smith | WR | 16.4 | 6.2 | 27.9 | 21% | **60%** | 19% |
+| DeVonta Smith | WR | 16.7 | 6.3 | 28.4 | 21% | **60%** | 19% |
 | Jaguars | DEF | 8.9 | -1.0 | 21.2 | 38% | **35%** | 27% |
 | Brock Purdy | QB | 18.5 | 9.5 | 27.6 | 11% | **77%** | 12% |
 
@@ -126,7 +126,7 @@
 |---|---|---|---|---|---|---|---|
 | Tee Higgins | WR | 16.1 | 6.2 | 27.4 | 20% | **61%** | 19% |
 | Joe Burrow | QB | 21.3 | 11.6 | 31.3 | 11% | **79%** | 10% |
-| CeeDee Lamb | WR | 16.3 | 6.2 | 27.7 | 21% | **60%** | 19% |
+| CeeDee Lamb | WR | 16.0 | 6.1 | 27.2 | 21% | **60%** | 19% |
 
 ---
 
@@ -136,8 +136,8 @@
 
 | Team | If they hit their floor | Expected | If they hit their ceiling |
 |---|---|---|---|
-| Mayebe shit | 91 → **17%** | 116 → **59%** | 142 → **92%** |
-| Allentown | 85 → **5%** | 111 → **41%** | 139 → **87%** |
+| Mayebe shit | 91 → **18%** | 116 → **62%** | 143 → **94%** |
+| Allentown | 84 → **5%** | 110 → **38%** | 138 → **85%** |
 
 *Floor and ceiling are the 10th and 90th percentile of that team's simulated total. Win odds are the share of simulations the opponent finishes below that score.*
 
@@ -145,7 +145,7 @@
 
 | Player | Pos | Proj | Floor | Ceiling | Bust | Neither | Boom |
 |---|---|---|---|---|---|---|---|
-| Ashton Jeanty | RB | 15.8 | 7.0 | 25.4 | 16% | **68%** | 16% |
+| Ashton Jeanty | RB | 16.4 | 7.3 | 26.4 | 16% | **68%** | 16% |
 | Rashee Rice | WR | 12.9 | 4.0 | 22.7 | 24% | **54%** | 22% |
 | Drake Maye | QB | 19.7 | 10.6 | 28.8 | 12% | **78%** | 10% |
 
@@ -153,9 +153,9 @@
 
 | Player | Pos | Proj | Floor | Ceiling | Bust | Neither | Boom |
 |---|---|---|---|---|---|---|---|
-| Josh Allen | QB | 18.8 | 9.7 | 28.6 | 11% | **76%** | 12% |
 | Jahmyr Gibbs | RB | 22.1 | 9.8 | 35.7 | 16% | **68%** | 16% |
-| DJ Moore | WR | 11.2 | 3.4 | 19.6 | 25% | **54%** | 22% |
+| Josh Allen | QB | 18.4 | 9.5 | 27.9 | 11% | **76%** | 12% |
+| DJ Moore | WR | 10.9 | 3.3 | 19.1 | 25% | **54%** | 22% |
 
 ---
 
@@ -165,8 +165,8 @@
 
 | Team | If they hit their floor | Expected | If they hit their ceiling |
 |---|---|---|---|
-| Montgomery Bus Boycott | 85 → **5%** | 111 → **34%** | 140 → **80%** |
-| Alleged | 93 → **19%** | 120 → **67%** | 152 → **96%** |
+| Montgomery Bus Boycott | 85 → **5%** | 112 → **36%** | 140 → **81%** |
+| Alleged | 92 → **18%** | 120 → **65%** | 151 → **96%** |
 
 *Floor and ceiling are the 10th and 90th percentile of that team's simulated total. Win odds are the share of simulations the opponent finishes below that score.*
 
@@ -176,7 +176,7 @@
 |---|---|---|---|---|---|---|---|
 | Puka Nacua | WR | 21.0 | 7.9 | 35.7 | 21% | **60%** | 19% |
 | Vikings | DEF | 5.6 | -3.0 | 16.5 | 41% | **27%** | 32% |
-| David Montgomery | RB | 15.3 | 6.8 | 24.8 | 16% | **68%** | 16% |
+| DK Metcalf | WR | 12.0 | 3.6 | 21.3 | 24% | **54%** | 22% |
 
 *A.J. Brown is Out, 0% to play.*
 
