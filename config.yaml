@@ -1,6 +1,9 @@
 # Single source of truth for the run. run.py reads this.
 league_id: "1399633932319752192"
 
+# appended to the bottom of share_wkNN.txt so leaguemates can click through
+repo_url: "https://github.com/mahram1-1/FF_Weekly_Matchup_Predictions"
+
 sources:
   use_espn: true          # injuries adapter; fails soft, check method.injury_sources
   matchup_detail: minimal # "full" adds positional edges, paths to victory, magic numbers
