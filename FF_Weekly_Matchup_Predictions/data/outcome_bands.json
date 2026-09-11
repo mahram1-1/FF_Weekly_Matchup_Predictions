@@ -1,0 +1,54 @@
+{
+ "source": "14,532 player-weeks 2023-25, Sleeper/Rotowire projection joined to actual, proj>=3",
+ "corr_proj_actual": 0.541,
+ "median_actual_over_proj": 0.914,
+ "coverage_centred_on_projection": {
+  "0.24": {
+   "bust": 0.399,
+   "neither": 0.278,
+   "boom": 0.322
+  },
+  "0.30": {
+   "bust": 0.36,
+   "neither": 0.345,
+   "boom": 0.296
+  },
+  "0.40": {
+   "bust": 0.29,
+   "neither": 0.455,
+   "boom": 0.256
+  },
+  "0.45": {
+   "bust": 0.254,
+   "neither": 0.51,
+   "boom": 0.236
+  },
+  "0.50": {
+   "bust": 0.222,
+   "neither": 0.558,
+   "boom": 0.219
+  }
+ },
+ "band_for_50pct_coverage_by_tier": {
+  "QB|top": 0.27,
+  "QB|mid": 0.31,
+  "QB|bottom": 0.34,
+  "RB|top": 0.36,
+  "RB|mid": 0.45,
+  "RB|bottom": 0.59,
+  "WR|top": 0.38,
+  "WR|mid": 0.5,
+  "WR|bottom": 0.56,
+  "TE|top": 0.42,
+  "TE|mid": 0.5,
+  "TE|bottom": 0.56,
+  "K|top": 0.37,
+  "K|mid": 0.4,
+  "K|bottom": 0.44,
+  "DEF|top": 0.52,
+  "DEF|mid": 0.54,
+  "DEF|bottom": 0.64
+ },
+ "default_band": 0.45,
+ "note": "Band is applied around the Sleeper projection, not the median outcome. A single league-wide band is used on purpose: tier-specific bands would force 'neither' to ~50% for everyone by construction and destroy the signal. With a fixed 45% band, 'neither' being dominant for a given player is itself the safety measure."
+}

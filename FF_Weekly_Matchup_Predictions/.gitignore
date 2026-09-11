@@ -1,0 +1,15 @@
+# regenerable, large, re-downloads in seconds
+.cache/
+data/snaps_*.csv
+data/pbp_*.parquet
+data/part_*.parquet
+data/*.csv
+
+# python
+__pycache__/
+*.pyc
+.venv/
+
+# never
+.env
+*.key

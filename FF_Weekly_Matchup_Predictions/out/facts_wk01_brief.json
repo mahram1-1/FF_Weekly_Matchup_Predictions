@@ -1,0 +1,4375 @@
+{
+ "league": {
+  "name": "Glenn\u2019s Gleague 2.0",
+  "id": "1399633932319752192",
+  "season": "2026",
+  "week": 1,
+  "teams": 12,
+  "scoring": "full PPR",
+  "slots": [
+   "QB",
+   "RB",
+   "RB",
+   "WR",
+   "WR",
+   "TE",
+   "FLEX",
+   "K",
+   "DEF"
+  ]
+ },
+ "method": {
+  "n_sims": 25000,
+  "seed": 3159238176,
+  "scoring": "league settings, not Sleeper's stock pts_ppr",
+  "scoring_note": "skill positions match Sleeper default within 0.1 pt; K is -0.3 on average; DEF is -2.3 and reorders, with the good-to-bad spread 58% wider than stock",
+  "outcome_band": 0.45,
+  "injury_sources": {
+   "sleeper": 14,
+   "nflverse_official": 1
+  },
+  "seasons_fit": [
+   "2023",
+   "2024",
+   "2025"
+  ]
+ },
+ "power_rankings": {
+  "weights": {
+   "roster": 0.4,
+   "sim": 0.6,
+   "actual": 0.0
+  },
+  "units": "points per week",
+  "table": [
+   {
+    "rank": 1,
+    "roster_id": 9,
+    "team": "Alleged",
+    "score": 117.77,
+    "components": {
+     "roster_ppw": 112.3,
+     "sim_ppw": 121.4,
+     "actual_ppw": null
+    },
+    "all_play_sim": 0.5593,
+    "all_play_actual": null,
+    "prev_rank": null,
+    "move": null
+   },
+   {
+    "rank": 2,
+    "roster_id": 11,
+    "team": "Soudry",
+    "score": 117.73,
+    "components": {
+     "roster_ppw": 110.7,
+     "sim_ppw": 122.4,
+     "actual_ppw": null
+    },
+    "all_play_sim": 0.574,
+    "all_play_actual": null,
+    "prev_rank": null,
+    "move": null
+   },
+   {
+    "rank": 3,
+    "roster_id": 4,
+    "team": "HYPE BEASTS",
+    "score": 116.89,
+    "components": {
+     "roster_ppw": 111.3,
+     "sim_ppw": 120.6,
+     "actual_ppw": null
+    },
+    "all_play_sim": 0.5493,
+    "all_play_actual": null,
+    "prev_rank": null,
+    "move": null
+   },
+   {
+    "rank": 4,
+    "roster_id": 2,
+    "team": "Evo Mega Knight",
+    "score": 115.98,
+    "components": {
+     "roster_ppw": 113.4,
+     "sim_ppw": 117.7,
+     "actual_ppw": null
+    },
+    "all_play_sim": 0.5094,
+    "all_play_actual": null,
+    "prev_rank": null,
+    "move": null
+   },
+   {
+    "rank": 5,
+    "roster_id": 5,
+    "team": "Mayebe shit",
+    "score": 114.57,
+    "components": {
+     "roster_ppw": 112.0,
+     "sim_ppw": 116.3,
+     "actual_ppw": null
+    },
+    "all_play_sim": 0.4923,
+    "all_play_actual": null,
+    "prev_rank": null,
+    "move": null
+   },
+   {
+    "rank": 6,
+    "roster_id": 6,
+    "team": "samlewittes",
+    "score": 114.38,
+    "components": {
+     "roster_ppw": 108.8,
+     "sim_ppw": 118.1,
+     "actual_ppw": null
+    },
+    "all_play_sim": 0.5147,
+    "all_play_actual": null,
+    "prev_rank": null,
+    "move": null
+   },
+   {
+    "rank": 7,
+    "roster_id": 7,
+    "team": "Nastey Mastey",
+    "score": 114.06,
+    "components": {
+     "roster_ppw": 110.4,
+     "sim_ppw": 116.5,
+     "actual_ppw": null
+    },
+    "all_play_sim": 0.4931,
+    "all_play_actual": null,
+    "prev_rank": null,
+    "move": null
+   },
+   {
+    "rank": 8,
+    "roster_id": 1,
+    "team": "Mike HubbaChuba",
+    "score": 114.04,
+    "components": {
+     "roster_ppw": 109.0,
+     "sim_ppw": 117.4,
+     "actual_ppw": null
+    },
+    "all_play_sim": 0.5045,
+    "all_play_actual": null,
+    "prev_rank": null,
+    "move": null
+   },
+   {
+    "rank": 9,
+    "roster_id": 3,
+    "team": "Chase Brown v. BOE",
+    "score": 113.73,
+    "components": {
+     "roster_ppw": 111.1,
+     "sim_ppw": 115.5,
+     "actual_ppw": null
+    },
+    "all_play_sim": 0.4785,
+    "all_play_actual": null,
+    "prev_rank": null,
+    "move": null
+   },
+   {
+    "rank": 10,
+    "roster_id": 12,
+    "team": "Likely Tuten my Reichard",
+    "score": 113.44,
+    "components": {
+     "roster_ppw": 110.5,
+     "sim_ppw": 115.4,
+     "actual_ppw": null
+    },
+    "all_play_sim": 0.4768,
+    "all_play_actual": null,
+    "prev_rank": null,
+    "move": null
+   },
+   {
+    "rank": 11,
+    "roster_id": 8,
+    "team": "Montgomery Bus Boycott",
+    "score": 112.49,
+    "components": {
+     "roster_ppw": 113.4,
+     "sim_ppw": 111.9,
+     "actual_ppw": null
+    },
+    "all_play_sim": 0.426,
+    "all_play_actual": null,
+    "prev_rank": null,
+    "move": null
+   },
+   {
+    "rank": 12,
+    "roster_id": 10,
+    "team": "Allentown",
+    "score": 112.32,
+    "components": {
+     "roster_ppw": 113.6,
+     "sim_ppw": 111.5,
+     "actual_ppw": null
+    },
+    "all_play_sim": 0.4221,
+    "all_play_actual": null,
+    "prev_rank": null,
+    "move": null
+   }
+  ]
+ },
+ "teams": [
+  {
+   "roster_id": 11,
+   "team": "Soudry",
+   "manager": "Soudry",
+   "record": "0-0",
+   "sim": {
+    "mean": 122.4,
+    "floor_p10": 94.2,
+    "ceiling_p90": 151.7,
+    "sd": 22.5,
+    "lineup_states": 1,
+    "p_over_140": 0.21,
+    "p_under_95": 0.108,
+    "all_play_pct": 0.574
+   },
+   "sim_healthy": {
+    "mean": 122.4,
+    "floor_p10": 94.2,
+    "ceiling_p90": 151.7,
+    "sd": 22.5
+   },
+   "injury_tax": {
+    "mean": 0.0,
+    "floor": 0.0,
+    "ceiling": 0.0
+   },
+   "roster_strength_ros": 1882.22,
+   "leverage": [
+    {
+     "name": "Tee Higgins",
+     "pos": "WR",
+     "sleeper_proj": 16.1,
+     "proj": 16.2,
+     "floor_p10": 6.2,
+     "ceiling_p90": 27.4,
+     "p_win_if_bust": 0.388,
+     "p_win_if_boom": 0.741,
+     "swing": 0.353,
+     "p_dud_under_5": 0.065,
+     "p_bust": 0.201,
+     "p_neither": 0.608,
+     "p_boom": 0.191,
+     "band": 0.45,
+     "ceiling_over_proj": 11.3
+    },
+    {
+     "name": "Joe Burrow",
+     "pos": "QB",
+     "sleeper_proj": 21.3,
+     "proj": 21.4,
+     "floor_p10": 11.6,
+     "ceiling_p90": 31.3,
+     "p_win_if_bust": 0.392,
+     "p_win_if_boom": 0.707,
+     "swing": 0.316,
+     "p_dud_under_5": 0.0,
+     "p_bust": 0.111,
+     "p_neither": 0.786,
+     "p_boom": 0.103,
+     "band": 0.45,
+     "ceiling_over_proj": 10.0
+    },
+    {
+     "name": "CeeDee Lamb",
+     "pos": "WR",
+     "sleeper_proj": 16.3,
+     "proj": 16.2,
+     "floor_p10": 6.2,
+     "ceiling_p90": 27.7,
+     "p_win_if_bust": 0.435,
+     "p_win_if_boom": 0.684,
+     "swing": 0.249,
+     "p_dud_under_5": 0.068,
+     "p_bust": 0.209,
+     "p_neither": 0.603,
+     "p_boom": 0.187,
+     "band": 0.45,
+     "ceiling_over_proj": 11.4
+    }
+   ],
+   "availability": [],
+   "pundit": {
+    "watch": [
+     {
+      "name": "Tee Higgins",
+      "pos": "WR",
+      "sleeper_proj": 16.1,
+      "proj": 16.2,
+      "floor_p10": 6.2,
+      "ceiling_p90": 27.4,
+      "p_win_if_bust": 0.388,
+      "p_win_if_boom": 0.741,
+      "swing": 0.353,
+      "p_dud_under_5": 0.065,
+      "p_bust": 0.201,
+      "p_neither": 0.608,
+      "p_boom": 0.191,
+      "band": 0.45,
+      "ceiling_over_proj": 11.3
+     },
+     {
+      "name": "Joe Burrow",
+      "pos": "QB",
+      "sleeper_proj": 21.3,
+      "proj": 21.4,
+      "floor_p10": 11.6,
+      "ceiling_p90": 31.3,
+      "p_win_if_bust": 0.392,
+      "p_win_if_boom": 0.707,
+      "swing": 0.316,
+      "p_dud_under_5": 0.0,
+      "p_bust": 0.111,
+      "p_neither": 0.786,
+      "p_boom": 0.103,
+      "band": 0.45,
+      "ceiling_over_proj": 10.0
+     }
+    ],
+    "reaches": [
+     {
+      "player": "Ravens",
+      "player_id": "BAL",
+      "pos": "DEF",
+      "pick": 155,
+      "round": 13,
+      "adp": 135.4,
+      "reach": 19.6,
+      "pos_rank_drafted": 6,
+      "pos_rank_now": 6,
+      "pos_rank_move": 0,
+      "ros_proj": 96.0
+     }
+    ],
+    "sliding": [
+     {
+      "player": "Jonah Coleman",
+      "player_id": "13345",
+      "pos": "RB",
+      "pick": 158,
+      "round": 14,
+      "adp": 163.8,
+      "reach": -5.8,
+      "pos_rank_drafted": 50,
+      "pos_rank_now": 59,
+      "pos_rank_move": -9,
+      "ros_proj": 63.9
+     }
+    ],
+    "dislike": [
+     {
+      "player": "Mark Andrews",
+      "player_id": "5012",
+      "pos": "TE",
+      "pick": 110,
+      "round": 10,
+      "adp": 126.1,
+      "reach": -16.1,
+      "pos_rank_drafted": 15,
+      "pos_rank_now": 12,
+      "pos_rank_move": 3,
+      "ros_proj": 162.5,
+      "why": "lands within the band only 50% of the time, against a 29% chance of busting",
+      "p_neither": 0.499,
+      "p_bust": 0.292
+     }
+    ],
+    "upside": [
+     {
+      "name": "CeeDee Lamb",
+      "pos": "WR",
+      "sleeper_proj": 16.3,
+      "proj": 16.2,
+      "floor_p10": 6.2,
+      "ceiling_p90": 27.7,
+      "p_win_if_bust": 0.435,
+      "p_win_if_boom": 0.684,
+      "swing": 0.249,
+      "p_dud_under_5": 0.068,
+      "p_bust": 0.209,
+      "p_neither": 0.603,
+      "p_boom": 0.187,
+      "band": 0.45,
+      "ceiling_over_proj": 11.4
+     },
+     {
+      "name": "Tee Higgins",
+      "pos": "WR",
+      "sleeper_proj": 16.1,
+      "proj": 16.2,
+      "floor_p10": 6.2,
+      "ceiling_p90": 27.4,
+      "p_win_if_bust": 0.388,
+      "p_win_if_boom": 0.741,
+      "swing": 0.353,
+      "p_dud_under_5": 0.065,
+      "p_bust": 0.201,
+      "p_neither": 0.608,
+      "p_boom": 0.191,
+      "band": 0.45,
+      "ceiling_over_proj": 11.3
+     }
+    ],
+    "risers": []
+   }
+  },
+  {
+   "roster_id": 9,
+   "team": "Alleged",
+   "manager": "acemcshlaghg",
+   "record": "0-0",
+   "sim": {
+    "mean": 121.4,
+    "floor_p10": 92.8,
+    "ceiling_p90": 151.6,
+    "sd": 22.9,
+    "lineup_states": 1,
+    "p_over_140": 0.204,
+    "p_under_95": 0.119,
+    "all_play_pct": 0.5593
+   },
+   "sim_healthy": {
+    "mean": 121.4,
+    "floor_p10": 92.8,
+    "ceiling_p90": 151.6,
+    "sd": 22.9
+   },
+   "injury_tax": {
+    "mean": 0.0,
+    "floor": 0.0,
+    "ceiling": 0.0
+   },
+   "roster_strength_ros": 1909.54,
+   "leverage": [
+    {
+     "name": "Jaxon Smith-Njigba",
+     "pos": "WR",
+     "sleeper_proj": 19.7,
+     "proj": 19.6,
+     "floor_p10": 7.4,
+     "ceiling_p90": 33.4,
+     "p_win_if_bust": 0.466,
+     "p_win_if_boom": 0.778,
+     "swing": 0.312,
+     "p_dud_under_5": 0.047,
+     "p_bust": 0.21,
+     "p_neither": 0.601,
+     "p_boom": 0.19,
+     "band": 0.45,
+     "ceiling_over_proj": 13.7
+    },
+    {
+     "name": "Chris Olave",
+     "pos": "WR",
+     "sleeper_proj": 16.1,
+     "proj": 16.0,
+     "floor_p10": 6.0,
+     "ceiling_p90": 27.4,
+     "p_win_if_bust": 0.495,
+     "p_win_if_boom": 0.751,
+     "swing": 0.256,
+     "p_dud_under_5": 0.074,
+     "p_bust": 0.21,
+     "p_neither": 0.601,
+     "p_boom": 0.189,
+     "band": 0.45,
+     "ceiling_over_proj": 11.3
+    },
+    {
+     "name": "Seahawks",
+     "pos": "DEF",
+     "sleeper_proj": 6.2,
+     "proj": 6.8,
+     "floor_p10": -3.0,
+     "ceiling_p90": 18.4,
+     "p_win_if_bust": 0.515,
+     "p_win_if_boom": 0.759,
+     "swing": 0.244,
+     "p_dud_under_5": 0.503,
+     "p_bust": 0.405,
+     "p_neither": 0.273,
+     "p_boom": 0.321,
+     "band": 0.45
+    }
+   ],
+   "availability": [],
+   "pundit": {
+    "watch": [
+     {
+      "name": "Jaxon Smith-Njigba",
+      "pos": "WR",
+      "sleeper_proj": 19.7,
+      "proj": 19.6,
+      "floor_p10": 7.4,
+      "ceiling_p90": 33.4,
+      "p_win_if_bust": 0.466,
+      "p_win_if_boom": 0.778,
+      "swing": 0.312,
+      "p_dud_under_5": 0.047,
+      "p_bust": 0.21,
+      "p_neither": 0.601,
+      "p_boom": 0.19,
+      "band": 0.45,
+      "ceiling_over_proj": 13.7
+     },
+     {
+      "name": "Chris Olave",
+      "pos": "WR",
+      "sleeper_proj": 16.1,
+      "proj": 16.0,
+      "floor_p10": 6.0,
+      "ceiling_p90": 27.4,
+      "p_win_if_bust": 0.495,
+      "p_win_if_boom": 0.751,
+      "swing": 0.256,
+      "p_dud_under_5": 0.074,
+      "p_bust": 0.21,
+      "p_neither": 0.601,
+      "p_boom": 0.189,
+      "band": 0.45,
+      "ceiling_over_proj": 11.3
+     }
+    ],
+    "reaches": [
+     {
+      "player": "Josh Jacobs",
+      "player_id": "5850",
+      "pos": "RB",
+      "pick": 78,
+      "round": 7,
+      "adp": 47.3,
+      "reach": 30.7,
+      "pos_rank_drafted": 27,
+      "pos_rank_now": 48,
+      "pos_rank_move": -21,
+      "ros_proj": 87.2
+     },
+     {
+      "player": "Jordyn Tyson",
+      "player_id": "13281",
+      "pos": "WR",
+      "pick": 139,
+      "round": 12,
+      "adp": 117.8,
+      "reach": 21.2,
+      "pos_rank_drafted": 54,
+      "pos_rank_now": 67,
+      "pos_rank_move": -13,
+      "ros_proj": 111.0
+     }
+    ],
+    "sliding": [
+     {
+      "player": "Alvin Kamara",
+      "player_id": "4035",
+      "pos": "RB",
+      "pick": 174,
+      "round": 15,
+      "adp": 167.6,
+      "reach": 6.4,
+      "pos_rank_drafted": 52,
+      "pos_rank_now": 61,
+      "pos_rank_move": -9,
+      "ros_proj": 63.0
+     }
+    ],
+    "dislike": [
+     {
+      "player": "J.K. Dobbins",
+      "player_id": "6806",
+      "pos": "RB",
+      "pick": 91,
+      "round": 8,
+      "adp": 91.1,
+      "reach": -0.1,
+      "pos_rank_drafted": 33,
+      "pos_rank_now": 29,
+      "pos_rank_move": 4,
+      "ros_proj": 160.2,
+      "why": "lands within the band only 48% of the time, against a 31% chance of busting",
+      "p_neither": 0.475,
+      "p_bust": 0.306
+     }
+    ],
+    "upside": [
+     {
+      "name": "Jaxon Smith-Njigba",
+      "pos": "WR",
+      "sleeper_proj": 19.7,
+      "proj": 19.6,
+      "floor_p10": 7.4,
+      "ceiling_p90": 33.4,
+      "p_win_if_bust": 0.466,
+      "p_win_if_boom": 0.778,
+      "swing": 0.312,
+      "p_dud_under_5": 0.047,
+      "p_bust": 0.21,
+      "p_neither": 0.601,
+      "p_boom": 0.19,
+      "band": 0.45,
+      "ceiling_over_proj": 13.7
+     },
+     {
+      "name": "Chris Olave",
+      "pos": "WR",
+      "sleeper_proj": 16.1,
+      "proj": 16.0,
+      "floor_p10": 6.0,
+      "ceiling_p90": 27.4,
+      "p_win_if_bust": 0.495,
+      "p_win_if_boom": 0.751,
+      "swing": 0.256,
+      "p_dud_under_5": 0.074,
+      "p_bust": 0.21,
+      "p_neither": 0.601,
+      "p_boom": 0.189,
+      "band": 0.45,
+      "ceiling_over_proj": 11.3
+     }
+    ],
+    "risers": []
+   }
+  },
+  {
+   "roster_id": 4,
+   "team": "HYPE BEASTS",
+   "manager": "omastey",
+   "record": "0-0",
+   "sim": {
+    "mean": 120.6,
+    "floor_p10": 92.9,
+    "ceiling_p90": 149.5,
+    "sd": 22.1,
+    "lineup_states": 1,
+    "p_over_140": 0.187,
+    "p_under_95": 0.121,
+    "all_play_pct": 0.5493
+   },
+   "sim_healthy": {
+    "mean": 120.6,
+    "floor_p10": 92.9,
+    "ceiling_p90": 149.5,
+    "sd": 22.1
+   },
+   "injury_tax": {
+    "mean": 0.0,
+    "floor": 0.0,
+    "ceiling": 0.0
+   },
+   "roster_strength_ros": 1892.68,
+   "leverage": [
+    {
+     "name": "Ja'Marr Chase",
+     "pos": "WR",
+     "sleeper_proj": 20.4,
+     "proj": 20.4,
+     "floor_p10": 7.8,
+     "ceiling_p90": 34.7,
+     "p_win_if_bust": 0.366,
+     "p_win_if_boom": 0.724,
+     "swing": 0.358,
+     "p_dud_under_5": 0.044,
+     "p_bust": 0.206,
+     "p_neither": 0.603,
+     "p_boom": 0.191,
+     "band": 0.45,
+     "ceiling_over_proj": 14.3
+    },
+    {
+     "name": "Chargers",
+     "pos": "DEF",
+     "sleeper_proj": 7.5,
+     "proj": 7.7,
+     "floor_p10": -0.8,
+     "ceiling_p90": 18.4,
+     "p_win_if_bust": 0.412,
+     "p_win_if_boom": 0.688,
+     "swing": 0.276,
+     "p_dud_under_5": 0.418,
+     "p_bust": 0.375,
+     "p_neither": 0.346,
+     "p_boom": 0.279,
+     "band": 0.45
+    },
+    {
+     "name": "Kyren Williams",
+     "pos": "RB",
+     "sleeper_proj": 14.6,
+     "proj": 14.7,
+     "floor_p10": 5.4,
+     "ceiling_p90": 25.7,
+     "p_win_if_bust": 0.424,
+     "p_win_if_boom": 0.66,
+     "swing": 0.236,
+     "p_dud_under_5": 0.085,
+     "p_bust": 0.218,
+     "p_neither": 0.579,
+     "p_boom": 0.203,
+     "band": 0.45,
+     "ceiling_over_proj": 11.1
+    }
+   ],
+   "availability": [],
+   "pundit": {
+    "watch": [
+     {
+      "name": "Ja'Marr Chase",
+      "pos": "WR",
+      "sleeper_proj": 20.4,
+      "proj": 20.4,
+      "floor_p10": 7.8,
+      "ceiling_p90": 34.7,
+      "p_win_if_bust": 0.366,
+      "p_win_if_boom": 0.724,
+      "swing": 0.358,
+      "p_dud_under_5": 0.044,
+      "p_bust": 0.206,
+      "p_neither": 0.603,
+      "p_boom": 0.191,
+      "band": 0.45,
+      "ceiling_over_proj": 14.3
+     },
+     {
+      "name": "Kyren Williams",
+      "pos": "RB",
+      "sleeper_proj": 14.6,
+      "proj": 14.7,
+      "floor_p10": 5.4,
+      "ceiling_p90": 25.7,
+      "p_win_if_bust": 0.424,
+      "p_win_if_boom": 0.66,
+      "swing": 0.236,
+      "p_dud_under_5": 0.085,
+      "p_bust": 0.218,
+      "p_neither": 0.579,
+      "p_boom": 0.203,
+      "band": 0.45,
+      "ceiling_over_proj": 11.1
+     }
+    ],
+    "reaches": [
+     {
+      "player": "Patrick Mahomes",
+      "player_id": "4046",
+      "pos": "QB",
+      "pick": 123,
+      "round": 11,
+      "adp": 110.3,
+      "reach": 12.7,
+      "pos_rank_drafted": 12,
+      "pos_rank_now": 14,
+      "pos_rank_move": -2,
+      "ros_proj": 286.7
+     }
+    ],
+    "sliding": [
+     {
+      "player": "KC Concepcion",
+      "player_id": "13298",
+      "pos": "WR",
+      "pick": 118,
+      "round": 10,
+      "adp": 119.9,
+      "reach": -1.9,
+      "pos_rank_drafted": 45,
+      "pos_rank_now": 53,
+      "pos_rank_move": -8,
+      "ros_proj": 156.4
+     },
+     {
+      "player": "Zach Charbonnet",
+      "player_id": "9753",
+      "pos": "RB",
+      "pick": 142,
+      "round": 12,
+      "adp": 153.8,
+      "reach": -11.8,
+      "pos_rank_drafted": 47,
+      "pos_rank_now": 55,
+      "pos_rank_move": -8,
+      "ros_proj": 67.2
+     }
+    ],
+    "dislike": [
+     {
+      "player": "Parker Washington",
+      "player_id": "9487",
+      "pos": "WR",
+      "pick": 70,
+      "round": 6,
+      "adp": 73.7,
+      "reach": -3.7,
+      "pos_rank_drafted": 31,
+      "pos_rank_now": 24,
+      "pos_rank_move": 7,
+      "ros_proj": 212.4,
+      "why": "lands within the band only 54% of the time, against a 25% chance of busting",
+      "p_neither": 0.538,
+      "p_bust": 0.247
+     }
+    ],
+    "upside": [
+     {
+      "name": "Ja'Marr Chase",
+      "pos": "WR",
+      "sleeper_proj": 20.4,
+      "proj": 20.4,
+      "floor_p10": 7.8,
+      "ceiling_p90": 34.7,
+      "p_win_if_bust": 0.366,
+      "p_win_if_boom": 0.724,
+      "swing": 0.358,
+      "p_dud_under_5": 0.044,
+      "p_bust": 0.206,
+      "p_neither": 0.603,
+      "p_boom": 0.191,
+      "band": 0.45,
+      "ceiling_over_proj": 14.3
+     },
+     {
+      "name": "Kyren Williams",
+      "pos": "RB",
+      "sleeper_proj": 14.6,
+      "proj": 14.7,
+      "floor_p10": 5.4,
+      "ceiling_p90": 25.7,
+      "p_win_if_bust": 0.424,
+      "p_win_if_boom": 0.66,
+      "swing": 0.236,
+      "p_dud_under_5": 0.085,
+      "p_bust": 0.218,
+      "p_neither": 0.579,
+      "p_boom": 0.203,
+      "band": 0.45,
+      "ceiling_over_proj": 11.1
+     }
+    ],
+    "risers": []
+   }
+  },
+  {
+   "roster_id": 6,
+   "team": "samlewittes",
+   "manager": "samlewittes",
+   "record": "0-0",
+   "sim": {
+    "mean": 118.1,
+    "floor_p10": 90.5,
+    "ceiling_p90": 146.6,
+    "sd": 21.9,
+    "lineup_states": 1,
+    "p_over_140": 0.161,
+    "p_under_95": 0.146,
+    "all_play_pct": 0.5147
+   },
+   "sim_healthy": {
+    "mean": 118.1,
+    "floor_p10": 90.5,
+    "ceiling_p90": 146.6,
+    "sd": 21.9
+   },
+   "injury_tax": {
+    "mean": 0.0,
+    "floor": 0.0,
+    "ceiling": 0.0
+   },
+   "roster_strength_ros": 1849.52,
+   "leverage": [
+    {
+     "name": "DeVonta Smith",
+     "pos": "WR",
+     "sleeper_proj": 16.4,
+     "proj": 16.4,
+     "floor_p10": 6.2,
+     "ceiling_p90": 27.9,
+     "p_win_if_bust": 0.308,
+     "p_win_if_boom": 0.604,
+     "swing": 0.296,
+     "p_dud_under_5": 0.065,
+     "p_bust": 0.209,
+     "p_neither": 0.599,
+     "p_boom": 0.192,
+     "band": 0.45,
+     "ceiling_over_proj": 11.5
+    },
+    {
+     "name": "Jaguars",
+     "pos": "DEF",
+     "sleeper_proj": 8.9,
+     "proj": 9.0,
+     "floor_p10": -1.0,
+     "ceiling_p90": 21.2,
+     "p_win_if_bust": 0.323,
+     "p_win_if_boom": 0.605,
+     "swing": 0.282,
+     "p_dud_under_5": 0.381,
+     "p_bust": 0.376,
+     "p_neither": 0.351,
+     "p_boom": 0.273,
+     "band": 0.45
+    },
+    {
+     "name": "Brock Purdy",
+     "pos": "QB",
+     "sleeper_proj": 18.5,
+     "proj": 18.4,
+     "floor_p10": 9.5,
+     "ceiling_p90": 27.6,
+     "p_win_if_bust": 0.32,
+     "p_win_if_boom": 0.57,
+     "swing": 0.251,
+     "p_dud_under_5": 0.04,
+     "p_bust": 0.111,
+     "p_neither": 0.767,
+     "p_boom": 0.121,
+     "band": 0.45,
+     "ceiling_over_proj": 9.1
+    }
+   ],
+   "availability": [],
+   "pundit": {
+    "watch": [
+     {
+      "name": "DeVonta Smith",
+      "pos": "WR",
+      "sleeper_proj": 16.4,
+      "proj": 16.4,
+      "floor_p10": 6.2,
+      "ceiling_p90": 27.9,
+      "p_win_if_bust": 0.308,
+      "p_win_if_boom": 0.604,
+      "swing": 0.296,
+      "p_dud_under_5": 0.065,
+      "p_bust": 0.209,
+      "p_neither": 0.599,
+      "p_boom": 0.192,
+      "band": 0.45,
+      "ceiling_over_proj": 11.5
+     },
+     {
+      "name": "Brock Purdy",
+      "pos": "QB",
+      "sleeper_proj": 18.5,
+      "proj": 18.4,
+      "floor_p10": 9.5,
+      "ceiling_p90": 27.6,
+      "p_win_if_bust": 0.32,
+      "p_win_if_boom": 0.57,
+      "swing": 0.251,
+      "p_dud_under_5": 0.04,
+      "p_bust": 0.111,
+      "p_neither": 0.767,
+      "p_boom": 0.121,
+      "band": 0.45,
+      "ceiling_over_proj": 9.1
+     }
+    ],
+    "reaches": [
+     {
+      "player": "Brock Purdy",
+      "player_id": "8183",
+      "pos": "QB",
+      "pick": 136,
+      "round": 12,
+      "adp": 122.4,
+      "reach": 13.6,
+      "pos_rank_drafted": 15,
+      "pos_rank_now": 9,
+      "pos_rank_move": 6,
+      "ros_proj": 303.2
+     }
+    ],
+    "sliding": [
+     {
+      "player": "Dallas Goedert",
+      "player_id": "5022",
+      "pos": "TE",
+      "pick": 105,
+      "round": 9,
+      "adp": 119.6,
+      "reach": -14.6,
+      "pos_rank_drafted": 14,
+      "pos_rank_now": 23,
+      "pos_rank_move": -9,
+      "ros_proj": 136.0
+     }
+    ],
+    "dislike": [
+     {
+      "player": "Christian Watson",
+      "player_id": "8167",
+      "pos": "WR",
+      "pick": 57,
+      "round": 5,
+      "adp": 68.9,
+      "reach": -11.9,
+      "pos_rank_drafted": 27,
+      "pos_rank_now": 27,
+      "pos_rank_move": 0,
+      "ros_proj": 207.6,
+      "why": "lands within the band only 54% of the time, against a 24% chance of busting",
+      "p_neither": 0.539,
+      "p_bust": 0.243
+     }
+    ],
+    "upside": [
+     {
+      "name": "DeVonta Smith",
+      "pos": "WR",
+      "sleeper_proj": 16.4,
+      "proj": 16.4,
+      "floor_p10": 6.2,
+      "ceiling_p90": 27.9,
+      "p_win_if_bust": 0.308,
+      "p_win_if_boom": 0.604,
+      "swing": 0.296,
+      "p_dud_under_5": 0.065,
+      "p_bust": 0.209,
+      "p_neither": 0.599,
+      "p_boom": 0.192,
+      "band": 0.45,
+      "ceiling_over_proj": 11.5
+     },
+     {
+      "name": "Kenneth Walker",
+      "pos": "RB",
+      "sleeper_proj": 13.7,
+      "proj": 13.7,
+      "floor_p10": 5.0,
+      "ceiling_p90": 24.0,
+      "p_win_if_bust": 0.332,
+      "p_win_if_boom": 0.572,
+      "swing": 0.24,
+      "p_dud_under_5": 0.097,
+      "p_bust": 0.214,
+      "p_neither": 0.585,
+      "p_boom": 0.201,
+      "band": 0.45,
+      "ceiling_over_proj": 10.3
+     }
+    ],
+    "risers": []
+   }
+  },
+  {
+   "roster_id": 2,
+   "team": "Evo Mega Knight",
+   "manager": "JordanKJordanK",
+   "record": "0-0",
+   "sim": {
+    "mean": 117.7,
+    "floor_p10": 89.6,
+    "ceiling_p90": 146.9,
+    "sd": 22.4,
+    "lineup_states": 1,
+    "p_over_140": 0.163,
+    "p_under_95": 0.155,
+    "all_play_pct": 0.5094
+   },
+   "sim_healthy": {
+    "mean": 117.7,
+    "floor_p10": 89.6,
+    "ceiling_p90": 146.9,
+    "sd": 22.4
+   },
+   "injury_tax": {
+    "mean": 0.0,
+    "floor": 0.0,
+    "ceiling": 0.0
+   },
+   "roster_strength_ros": 1927.98,
+   "leverage": [
+    {
+     "name": "Bijan Robinson",
+     "pos": "RB",
+     "sleeper_proj": 20.1,
+     "proj": 20.1,
+     "floor_p10": 8.9,
+     "ceiling_p90": 32.5,
+     "p_win_if_bust": 0.323,
+     "p_win_if_boom": 0.631,
+     "swing": 0.308,
+     "p_dud_under_5": 0.02,
+     "p_bust": 0.162,
+     "p_neither": 0.679,
+     "p_boom": 0.16,
+     "band": 0.45,
+     "ceiling_over_proj": 12.4
+    },
+    {
+     "name": "Javonte Williams",
+     "pos": "RB",
+     "sleeper_proj": 17.7,
+     "proj": 17.7,
+     "floor_p10": 7.9,
+     "ceiling_p90": 28.6,
+     "p_win_if_bust": 0.331,
+     "p_win_if_boom": 0.624,
+     "swing": 0.293,
+     "p_dud_under_5": 0.029,
+     "p_bust": 0.162,
+     "p_neither": 0.68,
+     "p_boom": 0.158,
+     "band": 0.45,
+     "ceiling_over_proj": 10.9
+    },
+    {
+     "name": "George Pickens",
+     "pos": "WR",
+     "sleeper_proj": 15.8,
+     "proj": 15.7,
+     "floor_p10": 6.0,
+     "ceiling_p90": 26.8,
+     "p_win_if_bust": 0.333,
+     "p_win_if_boom": 0.625,
+     "swing": 0.292,
+     "p_dud_under_5": 0.068,
+     "p_bust": 0.207,
+     "p_neither": 0.603,
+     "p_boom": 0.19,
+     "band": 0.45,
+     "ceiling_over_proj": 11.0
+    }
+   ],
+   "availability": [],
+   "pundit": {
+    "watch": [
+     {
+      "name": "Bijan Robinson",
+      "pos": "RB",
+      "sleeper_proj": 20.1,
+      "proj": 20.1,
+      "floor_p10": 8.9,
+      "ceiling_p90": 32.5,
+      "p_win_if_bust": 0.323,
+      "p_win_if_boom": 0.631,
+      "swing": 0.308,
+      "p_dud_under_5": 0.02,
+      "p_bust": 0.162,
+      "p_neither": 0.679,
+      "p_boom": 0.16,
+      "band": 0.45,
+      "ceiling_over_proj": 12.4
+     },
+     {
+      "name": "Javonte Williams",
+      "pos": "RB",
+      "sleeper_proj": 17.7,
+      "proj": 17.7,
+      "floor_p10": 7.9,
+      "ceiling_p90": 28.6,
+      "p_win_if_bust": 0.331,
+      "p_win_if_boom": 0.624,
+      "swing": 0.293,
+      "p_dud_under_5": 0.029,
+      "p_bust": 0.162,
+      "p_neither": 0.68,
+      "p_boom": 0.158,
+      "band": 0.45,
+      "ceiling_over_proj": 10.9
+     }
+    ],
+    "reaches": [],
+    "sliding": [
+     {
+      "player": "Tyler Allgeier",
+      "player_id": "8132",
+      "pos": "RB",
+      "pick": 119,
+      "round": 10,
+      "adp": 143.6,
+      "reach": -24.6,
+      "pos_rank_drafted": 42,
+      "pos_rank_now": 50,
+      "pos_rank_move": -8,
+      "ros_proj": 77.2
+     }
+    ],
+    "dislike": [
+     {
+      "player": "Brenton Strange",
+      "player_id": "9480",
+      "pos": "TE",
+      "pick": 143,
+      "round": 12,
+      "adp": 161.6,
+      "reach": -18.6,
+      "pos_rank_drafted": 18,
+      "pos_rank_now": 13,
+      "pos_rank_move": 5,
+      "ros_proj": 161.0,
+      "why": "lands within the band only 50% of the time, against a 29% chance of busting",
+      "p_neither": 0.497,
+      "p_bust": 0.294
+     },
+     {
+      "player": "Davante Adams",
+      "player_id": "2133",
+      "pos": "WR",
+      "pick": 47,
+      "round": 4,
+      "adp": 51.0,
+      "reach": -4.0,
+      "pos_rank_drafted": 22,
+      "pos_rank_now": 31,
+      "pos_rank_move": -9,
+      "ros_proj": 192.5,
+      "why": "lands within the band only 53% of the time, against a 24% chance of busting",
+      "p_neither": 0.534,
+      "p_bust": 0.242
+     }
+    ],
+    "upside": [
+     {
+      "name": "Bijan Robinson",
+      "pos": "RB",
+      "sleeper_proj": 20.1,
+      "proj": 20.1,
+      "floor_p10": 8.9,
+      "ceiling_p90": 32.5,
+      "p_win_if_bust": 0.323,
+      "p_win_if_boom": 0.631,
+      "swing": 0.308,
+      "p_dud_under_5": 0.02,
+      "p_bust": 0.162,
+      "p_neither": 0.679,
+      "p_boom": 0.16,
+      "band": 0.45,
+      "ceiling_over_proj": 12.4
+     },
+     {
+      "name": "George Pickens",
+      "pos": "WR",
+      "sleeper_proj": 15.8,
+      "proj": 15.7,
+      "floor_p10": 6.0,
+      "ceiling_p90": 26.8,
+      "p_win_if_bust": 0.333,
+      "p_win_if_boom": 0.625,
+      "swing": 0.292,
+      "p_dud_under_5": 0.068,
+      "p_bust": 0.207,
+      "p_neither": 0.603,
+      "p_boom": 0.19,
+      "band": 0.45,
+      "ceiling_over_proj": 11.0
+     }
+    ],
+    "risers": [
+     {
+      "player": "Josh Downs",
+      "player_id": "9500",
+      "pos": "WR",
+      "pick": 122,
+      "round": 11,
+      "adp": 113.8,
+      "reach": 8.2,
+      "pos_rank_drafted": 48,
+      "pos_rank_now": 39,
+      "pos_rank_move": 9,
+      "ros_proj": 172.3
+     }
+    ]
+   }
+  },
+  {
+   "roster_id": 1,
+   "team": "Mike HubbaChuba",
+   "manager": "JosephDuane",
+   "record": "0-0",
+   "sim": {
+    "mean": 117.4,
+    "floor_p10": 89.9,
+    "ceiling_p90": 146.0,
+    "sd": 21.9,
+    "lineup_states": 1,
+    "p_over_140": 0.151,
+    "p_under_95": 0.154,
+    "all_play_pct": 0.5045
+   },
+   "sim_healthy": {
+    "mean": 117.4,
+    "floor_p10": 89.9,
+    "ceiling_p90": 146.0,
+    "sd": 21.9
+   },
+   "injury_tax": {
+    "mean": 0.0,
+    "floor": 0.0,
+    "ceiling": 0.0
+   },
+   "roster_strength_ros": 1852.94,
+   "leverage": [
+    {
+     "name": "Amon-Ra St. Brown",
+     "pos": "WR",
+     "sleeper_proj": 20.2,
+     "proj": 20.1,
+     "floor_p10": 7.7,
+     "ceiling_p90": 34.4,
+     "p_win_if_bust": 0.37,
+     "p_win_if_boom": 0.681,
+     "swing": 0.311,
+     "p_dud_under_5": 0.046,
+     "p_bust": 0.21,
+     "p_neither": 0.6,
+     "p_boom": 0.19,
+     "band": 0.45,
+     "ceiling_over_proj": 14.2
+    },
+    {
+     "name": "Drake London",
+     "pos": "WR",
+     "sleeper_proj": 15.4,
+     "proj": 15.4,
+     "floor_p10": 5.9,
+     "ceiling_p90": 26.3,
+     "p_win_if_bust": 0.388,
+     "p_win_if_boom": 0.653,
+     "swing": 0.265,
+     "p_dud_under_5": 0.073,
+     "p_bust": 0.208,
+     "p_neither": 0.598,
+     "p_boom": 0.193,
+     "band": 0.45,
+     "ceiling_over_proj": 10.9
+    },
+    {
+     "name": "Trey McBride",
+     "pos": "TE",
+     "sleeper_proj": 14.2,
+     "proj": 14.2,
+     "floor_p10": 5.1,
+     "ceiling_p90": 25.0,
+     "p_win_if_bust": 0.395,
+     "p_win_if_boom": 0.65,
+     "swing": 0.256,
+     "p_dud_under_5": 0.095,
+     "p_bust": 0.227,
+     "p_neither": 0.577,
+     "p_boom": 0.195,
+     "band": 0.45,
+     "ceiling_over_proj": 10.8
+    }
+   ],
+   "availability": [],
+   "pundit": {
+    "watch": [
+     {
+      "name": "Amon-Ra St. Brown",
+      "pos": "WR",
+      "sleeper_proj": 20.2,
+      "proj": 20.1,
+      "floor_p10": 7.7,
+      "ceiling_p90": 34.4,
+      "p_win_if_bust": 0.37,
+      "p_win_if_boom": 0.681,
+      "swing": 0.311,
+      "p_dud_under_5": 0.046,
+      "p_bust": 0.21,
+      "p_neither": 0.6,
+      "p_boom": 0.19,
+      "band": 0.45,
+      "ceiling_over_proj": 14.2
+     },
+     {
+      "name": "Drake London",
+      "pos": "WR",
+      "sleeper_proj": 15.4,
+      "proj": 15.4,
+      "floor_p10": 5.9,
+      "ceiling_p90": 26.3,
+      "p_win_if_bust": 0.388,
+      "p_win_if_boom": 0.653,
+      "swing": 0.265,
+      "p_dud_under_5": 0.073,
+      "p_bust": 0.208,
+      "p_neither": 0.598,
+      "p_boom": 0.193,
+      "band": 0.45,
+      "ceiling_over_proj": 10.9
+     }
+    ],
+    "reaches": [],
+    "sliding": [
+     {
+      "player": "Kaleb Johnson",
+      "player_id": "12504",
+      "pos": "RB",
+      "pick": 137,
+      "round": 12,
+      "adp": 214.5,
+      "reach": -77.5,
+      "pos_rank_drafted": 46,
+      "pos_rank_now": 82,
+      "pos_rank_move": -36,
+      "ros_proj": 32.0
+     },
+     {
+      "player": "Michael Wilson",
+      "player_id": "10232",
+      "pos": "WR",
+      "pick": 89,
+      "round": 8,
+      "adp": 87.2,
+      "reach": 1.8,
+      "pos_rank_drafted": 36,
+      "pos_rank_now": 47,
+      "pos_rank_move": -11,
+      "ros_proj": 166.0
+     }
+    ],
+    "dislike": [
+     {
+      "player": "Terry McLaurin",
+      "player_id": "5927",
+      "pos": "WR",
+      "pick": 56,
+      "round": 5,
+      "adp": 55.2,
+      "reach": 0.8,
+      "pos_rank_drafted": 26,
+      "pos_rank_now": 23,
+      "pos_rank_move": 3,
+      "ros_proj": 213.8,
+      "why": "lands within the band only 54% of the time, against a 24% chance of busting",
+      "p_neither": 0.535,
+      "p_bust": 0.242
+     }
+    ],
+    "upside": [
+     {
+      "name": "Amon-Ra St. Brown",
+      "pos": "WR",
+      "sleeper_proj": 20.2,
+      "proj": 20.1,
+      "floor_p10": 7.7,
+      "ceiling_p90": 34.4,
+      "p_win_if_bust": 0.37,
+      "p_win_if_boom": 0.681,
+      "swing": 0.311,
+      "p_dud_under_5": 0.046,
+      "p_bust": 0.21,
+      "p_neither": 0.6,
+      "p_boom": 0.19,
+      "band": 0.45,
+      "ceiling_over_proj": 14.2
+     },
+     {
+      "name": "Drake London",
+      "pos": "WR",
+      "sleeper_proj": 15.4,
+      "proj": 15.4,
+      "floor_p10": 5.9,
+      "ceiling_p90": 26.3,
+      "p_win_if_bust": 0.388,
+      "p_win_if_boom": 0.653,
+      "swing": 0.265,
+      "p_dud_under_5": 0.073,
+      "p_bust": 0.208,
+      "p_neither": 0.598,
+      "p_boom": 0.193,
+      "band": 0.45,
+      "ceiling_over_proj": 10.9
+     }
+    ],
+    "risers": [
+     {
+      "player": "Mike Evans",
+      "player_id": "2216",
+      "pos": "WR",
+      "pick": 65,
+      "round": 6,
+      "adp": 63.3,
+      "reach": 1.7,
+      "pos_rank_drafted": 29,
+      "pos_rank_now": 21,
+      "pos_rank_move": 8,
+      "ros_proj": 222.2
+     }
+    ]
+   }
+  },
+  {
+   "roster_id": 7,
+   "team": "Nastey Mastey",
+   "manager": "jonnygoats",
+   "record": "0-0",
+   "sim": {
+    "mean": 116.5,
+    "floor_p10": 90.2,
+    "ceiling_p90": 144.1,
+    "sd": 21.1,
+    "lineup_states": 2,
+    "p_over_140": 0.136,
+    "p_under_95": 0.155,
+    "all_play_pct": 0.4931
+   },
+   "sim_healthy": {
+    "mean": 118.9,
+    "floor_p10": 92.0,
+    "ceiling_p90": 147.0,
+    "sd": 21.4
+   },
+   "injury_tax": {
+    "mean": -2.4,
+    "floor": -1.8,
+    "ceiling": -2.9
+   },
+   "roster_strength_ros": 1876.74,
+   "leverage": [
+    {
+     "name": "Justin Jefferson",
+     "pos": "WR",
+     "sleeper_proj": 17.1,
+     "proj": 17.1,
+     "floor_p10": 6.5,
+     "ceiling_p90": 29.1,
+     "p_win_if_bust": 0.348,
+     "p_win_if_boom": 0.649,
+     "swing": 0.3,
+     "p_dud_under_5": 0.057,
+     "p_bust": 0.207,
+     "p_neither": 0.605,
+     "p_boom": 0.188,
+     "band": 0.45,
+     "ceiling_over_proj": 12.0
+    },
+    {
+     "name": "Jalen Hurts",
+     "pos": "QB",
+     "sleeper_proj": 22.4,
+     "proj": 22.4,
+     "floor_p10": 12.2,
+     "ceiling_p90": 32.1,
+     "p_win_if_bust": 0.357,
+     "p_win_if_boom": 0.636,
+     "swing": 0.28,
+     "p_dud_under_5": 0.0,
+     "p_bust": 0.115,
+     "p_neither": 0.786,
+     "p_boom": 0.099,
+     "band": 0.45,
+     "ceiling_over_proj": 9.7
+    },
+    {
+     "name": "Colston Loveland",
+     "pos": "TE",
+     "sleeper_proj": 13.9,
+     "proj": 13.9,
+     "floor_p10": 4.9,
+     "ceiling_p90": 24.4,
+     "p_win_if_bust": 0.379,
+     "p_win_if_boom": 0.623,
+     "swing": 0.244,
+     "p_dud_under_5": 0.102,
+     "p_bust": 0.228,
+     "p_neither": 0.581,
+     "p_boom": 0.191,
+     "band": 0.45,
+     "ceiling_over_proj": 10.5
+    }
+   ],
+   "availability": [
+    {
+     "player": "Malik Nabers",
+     "pos": "WR",
+     "slot": "WR",
+     "designation": "Questionable",
+     "practice": null,
+     "p_play": 0.63,
+     "rate_fitted": true,
+     "rate_n": 1312,
+     "source": "sleeper",
+     "note": "Surgery",
+     "proj_if_plays": 14.0,
+     "replacement": "Chris Godwin",
+     "replacement_proj": 10.2,
+     "dropoff": 3.8
+    }
+   ],
+   "pundit": {
+    "watch": [
+     {
+      "name": "Justin Jefferson",
+      "pos": "WR",
+      "sleeper_proj": 17.1,
+      "proj": 17.1,
+      "floor_p10": 6.5,
+      "ceiling_p90": 29.1,
+      "p_win_if_bust": 0.348,
+      "p_win_if_boom": 0.649,
+      "swing": 0.3,
+      "p_dud_under_5": 0.057,
+      "p_bust": 0.207,
+      "p_neither": 0.605,
+      "p_boom": 0.188,
+      "band": 0.45,
+      "ceiling_over_proj": 12.0
+     },
+     {
+      "name": "Jalen Hurts",
+      "pos": "QB",
+      "sleeper_proj": 22.4,
+      "proj": 22.4,
+      "floor_p10": 12.2,
+      "ceiling_p90": 32.1,
+      "p_win_if_bust": 0.357,
+      "p_win_if_boom": 0.636,
+      "swing": 0.28,
+      "p_dud_under_5": 0.0,
+      "p_bust": 0.115,
+      "p_neither": 0.786,
+      "p_boom": 0.099,
+      "band": 0.45,
+      "ceiling_over_proj": 9.7
+     }
+    ],
+    "reaches": [
+     {
+      "player": "Jaxson Dart",
+      "player_id": "12508",
+      "pos": "QB",
+      "pick": 135,
+      "round": 12,
+      "adp": 97.8,
+      "reach": 37.2,
+      "pos_rank_drafted": 14,
+      "pos_rank_now": 11,
+      "pos_rank_move": 3,
+      "ros_proj": 296.5
+     }
+    ],
+    "sliding": [
+     {
+      "player": "Stefon Diggs",
+      "player_id": "2449",
+      "pos": "WR",
+      "pick": 111,
+      "round": 10,
+      "adp": 106.9,
+      "reach": 4.1,
+      "pos_rank_drafted": 41,
+      "pos_rank_now": 52,
+      "pos_rank_move": -11,
+      "ros_proj": 157.3
+     }
+    ],
+    "dislike": [],
+    "upside": [
+     {
+      "name": "Justin Jefferson",
+      "pos": "WR",
+      "sleeper_proj": 17.1,
+      "proj": 17.1,
+      "floor_p10": 6.5,
+      "ceiling_p90": 29.1,
+      "p_win_if_bust": 0.348,
+      "p_win_if_boom": 0.649,
+      "swing": 0.3,
+      "p_dud_under_5": 0.057,
+      "p_bust": 0.207,
+      "p_neither": 0.605,
+      "p_boom": 0.188,
+      "band": 0.45,
+      "ceiling_over_proj": 12.0
+     },
+     {
+      "name": "Colston Loveland",
+      "pos": "TE",
+      "sleeper_proj": 13.9,
+      "proj": 13.9,
+      "floor_p10": 4.9,
+      "ceiling_p90": 24.4,
+      "p_win_if_bust": 0.379,
+      "p_win_if_boom": 0.623,
+      "swing": 0.244,
+      "p_dud_under_5": 0.102,
+      "p_bust": 0.228,
+      "p_neither": 0.581,
+      "p_boom": 0.191,
+      "band": 0.45,
+      "ceiling_over_proj": 10.5
+     }
+    ],
+    "risers": []
+   }
+  },
+  {
+   "roster_id": 5,
+   "team": "Mayebe shit",
+   "manager": "bucket220",
+   "record": "0-0",
+   "sim": {
+    "mean": 116.3,
+    "floor_p10": 91.1,
+    "ceiling_p90": 142.1,
+    "sd": 20.0,
+    "lineup_states": 1,
+    "p_over_140": 0.12,
+    "p_under_95": 0.143,
+    "all_play_pct": 0.4923
+   },
+   "sim_healthy": {
+    "mean": 116.3,
+    "floor_p10": 91.1,
+    "ceiling_p90": 142.1,
+    "sd": 20.0
+   },
+   "injury_tax": {
+    "mean": 0.0,
+    "floor": 0.0,
+    "ceiling": 0.0
+   },
+   "roster_strength_ros": 1903.46,
+   "leverage": [
+    {
+     "name": "Ashton Jeanty",
+     "pos": "RB",
+     "sleeper_proj": 15.8,
+     "proj": 15.8,
+     "floor_p10": 7.0,
+     "ceiling_p90": 25.4,
+     "p_win_if_bust": 0.439,
+     "p_win_if_boom": 0.699,
+     "swing": 0.26,
+     "p_dud_under_5": 0.035,
+     "p_bust": 0.161,
+     "p_neither": 0.683,
+     "p_boom": 0.156,
+     "band": 0.45,
+     "ceiling_over_proj": 9.6
+    },
+    {
+     "name": "Rashee Rice",
+     "pos": "WR",
+     "sleeper_proj": 12.9,
+     "proj": 12.9,
+     "floor_p10": 4.0,
+     "ceiling_p90": 22.7,
+     "p_win_if_bust": 0.453,
+     "p_win_if_boom": 0.7,
+     "swing": 0.246,
+     "p_dud_under_5": 0.14,
+     "p_bust": 0.242,
+     "p_neither": 0.535,
+     "p_boom": 0.223,
+     "band": 0.45,
+     "ceiling_over_proj": 9.8
+    },
+    {
+     "name": "Drake Maye",
+     "pos": "QB",
+     "sleeper_proj": 19.7,
+     "proj": 19.6,
+     "floor_p10": 10.6,
+     "ceiling_p90": 28.8,
+     "p_win_if_bust": 0.451,
+     "p_win_if_boom": 0.687,
+     "swing": 0.236,
+     "p_dud_under_5": 0.0,
+     "p_bust": 0.118,
+     "p_neither": 0.78,
+     "p_boom": 0.103,
+     "band": 0.45,
+     "ceiling_over_proj": 9.1
+    }
+   ],
+   "availability": [],
+   "pundit": {
+    "watch": [
+     {
+      "name": "Ashton Jeanty",
+      "pos": "RB",
+      "sleeper_proj": 15.8,
+      "proj": 15.8,
+      "floor_p10": 7.0,
+      "ceiling_p90": 25.4,
+      "p_win_if_bust": 0.439,
+      "p_win_if_boom": 0.699,
+      "swing": 0.26,
+      "p_dud_under_5": 0.035,
+      "p_bust": 0.161,
+      "p_neither": 0.683,
+      "p_boom": 0.156,
+      "band": 0.45,
+      "ceiling_over_proj": 9.6
+     },
+     {
+      "name": "Rashee Rice",
+      "pos": "WR",
+      "sleeper_proj": 12.9,
+      "proj": 12.9,
+      "floor_p10": 4.0,
+      "ceiling_p90": 22.7,
+      "p_win_if_bust": 0.453,
+      "p_win_if_boom": 0.7,
+      "swing": 0.246,
+      "p_dud_under_5": 0.14,
+      "p_bust": 0.242,
+      "p_neither": 0.535,
+      "p_boom": 0.223,
+      "band": 0.45,
+      "ceiling_over_proj": 9.8
+     }
+    ],
+    "reaches": [
+     {
+      "player": "Matthew Stafford",
+      "player_id": "421",
+      "pos": "QB",
+      "pick": 117,
+      "round": 10,
+      "adp": 94.4,
+      "reach": 22.6,
+      "pos_rank_drafted": 11,
+      "pos_rank_now": 17,
+      "pos_rank_move": -6,
+      "ros_proj": 280.2
+     },
+     {
+      "player": "Ka'imi Fairbairn",
+      "player_id": "3451",
+      "pos": "K",
+      "pick": 148,
+      "round": 13,
+      "adp": 127.2,
+      "reach": 20.8,
+      "pos_rank_drafted": 4,
+      "pos_rank_now": 2,
+      "pos_rank_move": 2,
+      "ros_proj": 173.0
+     }
+    ],
+    "sliding": [],
+    "dislike": [
+     {
+      "player": "Rashee Rice",
+      "player_id": "10229",
+      "pos": "WR",
+      "pick": 28,
+      "round": 3,
+      "adp": 29.2,
+      "reach": -1.2,
+      "pos_rank_drafted": 11,
+      "pos_rank_now": 13,
+      "pos_rank_move": -2,
+      "ros_proj": 229.3,
+      "why": "lands within the band only 54% of the time, against a 24% chance of busting",
+      "p_neither": 0.535,
+      "p_bust": 0.242
+     }
+    ],
+    "upside": [
+     {
+      "name": "Christian McCaffrey",
+      "pos": "RB",
+      "sleeper_proj": 19.6,
+      "proj": 19.6,
+      "floor_p10": 8.6,
+      "ceiling_p90": 31.6,
+      "p_win_if_bust": 0.46,
+      "p_win_if_boom": 0.694,
+      "swing": 0.234,
+      "p_dud_under_5": 0.02,
+      "p_bust": 0.163,
+      "p_neither": 0.679,
+      "p_boom": 0.159,
+      "band": 0.45,
+      "ceiling_over_proj": 12.0
+     },
+     {
+      "name": "Jaylen Warren",
+      "pos": "RB",
+      "sleeper_proj": 13.1,
+      "proj": 13.1,
+      "floor_p10": 4.8,
+      "ceiling_p90": 23.0,
+      "p_win_if_bust": 0.462,
+      "p_win_if_boom": 0.694,
+      "swing": 0.232,
+      "p_dud_under_5": 0.106,
+      "p_bust": 0.216,
+      "p_neither": 0.583,
+      "p_boom": 0.201,
+      "band": 0.45,
+      "ceiling_over_proj": 9.9
+     }
+    ],
+    "risers": [
+     {
+      "player": "Khalil Shakir",
+      "player_id": "8134",
+      "pos": "WR",
+      "pick": 165,
+      "round": 14,
+      "adp": 146.5,
+      "reach": 18.5,
+      "pos_rank_drafted": 59,
+      "pos_rank_now": 42,
+      "pos_rank_move": 17,
+      "ros_proj": 170.7
+     }
+    ]
+   }
+  },
+  {
+   "roster_id": 3,
+   "team": "Chase Brown v. BOE",
+   "manager": "gamblingglenn",
+   "record": "0-0",
+   "sim": {
+    "mean": 115.5,
+    "floor_p10": 89.2,
+    "ceiling_p90": 142.9,
+    "sd": 20.9,
+    "lineup_states": 2,
+    "p_over_140": 0.123,
+    "p_under_95": 0.165,
+    "all_play_pct": 0.4785
+   },
+   "sim_healthy": {
+    "mean": 116.0,
+    "floor_p10": 89.8,
+    "ceiling_p90": 143.4,
+    "sd": 20.9
+   },
+   "injury_tax": {
+    "mean": -0.5,
+    "floor": -0.6,
+    "ceiling": -0.5
+   },
+   "roster_strength_ros": 1888.22,
+   "leverage": [
+    {
+     "name": "Chase Brown",
+     "pos": "RB",
+     "sleeper_proj": 17.1,
+     "proj": 17.1,
+     "floor_p10": 7.6,
+     "ceiling_p90": 27.6,
+     "p_win_if_bust": 0.379,
+     "p_win_if_boom": 0.65,
+     "swing": 0.271,
+     "p_dud_under_5": 0.031,
+     "p_bust": 0.164,
+     "p_neither": 0.677,
+     "p_boom": 0.158,
+     "band": 0.45,
+     "ceiling_over_proj": 10.5
+    },
+    {
+     "name": "Raiders",
+     "pos": "DEF",
+     "sleeper_proj": 7.8,
+     "proj": 7.9,
+     "floor_p10": -0.9,
+     "ceiling_p90": 18.8,
+     "p_win_if_bust": 0.389,
+     "p_win_if_boom": 0.654,
+     "swing": 0.264,
+     "p_dud_under_5": 0.421,
+     "p_bust": 0.382,
+     "p_neither": 0.341,
+     "p_boom": 0.276,
+     "band": 0.45
+    },
+    {
+     "name": "Zay Flowers",
+     "pos": "WR",
+     "sleeper_proj": 15.6,
+     "proj": 15.6,
+     "floor_p10": 6.0,
+     "ceiling_p90": 26.6,
+     "p_win_if_bust": 0.379,
+     "p_win_if_boom": 0.64,
+     "swing": 0.261,
+     "p_dud_under_5": 0.069,
+     "p_bust": 0.206,
+     "p_neither": 0.601,
+     "p_boom": 0.193,
+     "band": 0.45,
+     "ceiling_over_proj": 11.0
+    }
+   ],
+   "availability": [],
+   "pundit": {
+    "watch": [
+     {
+      "name": "Chase Brown",
+      "pos": "RB",
+      "sleeper_proj": 17.1,
+      "proj": 17.1,
+      "floor_p10": 7.6,
+      "ceiling_p90": 27.6,
+      "p_win_if_bust": 0.379,
+      "p_win_if_boom": 0.65,
+      "swing": 0.271,
+      "p_dud_under_5": 0.031,
+      "p_bust": 0.164,
+      "p_neither": 0.677,
+      "p_boom": 0.158,
+      "band": 0.45,
+      "ceiling_over_proj": 10.5
+     },
+     {
+      "name": "Zay Flowers",
+      "pos": "WR",
+      "sleeper_proj": 15.6,
+      "proj": 15.6,
+      "floor_p10": 6.0,
+      "ceiling_p90": 26.6,
+      "p_win_if_bust": 0.379,
+      "p_win_if_boom": 0.64,
+      "swing": 0.261,
+      "p_dud_under_5": 0.069,
+      "p_bust": 0.206,
+      "p_neither": 0.601,
+      "p_boom": 0.193,
+      "band": 0.45,
+      "ceiling_over_proj": 11.0
+     }
+    ],
+    "reaches": [
+     {
+      "player": "Patriots",
+      "player_id": "NE",
+      "pos": "DEF",
+      "pick": 156,
+      "round": 13,
+      "adp": 135.9,
+      "reach": 20.1,
+      "pos_rank_drafted": 7,
+      "pos_rank_now": 7,
+      "pos_rank_move": 0,
+      "ros_proj": 93.0
+     },
+     {
+      "player": "Bo Nix",
+      "player_id": "11563",
+      "pos": "QB",
+      "pick": 132,
+      "round": 11,
+      "adp": 116.8,
+      "reach": 15.2,
+      "pos_rank_drafted": 13,
+      "pos_rank_now": 12,
+      "pos_rank_move": 1,
+      "ros_proj": 295.7
+     }
+    ],
+    "sliding": [
+     {
+      "player": "J.J. McCarthy",
+      "player_id": "11565",
+      "pos": "QB",
+      "pick": 180,
+      "round": 15,
+      "adp": 224.2,
+      "reach": -44.2,
+      "pos_rank_drafted": 22,
+      "pos_rank_now": 50,
+      "pos_rank_move": -28,
+      "ros_proj": 13.6
+     }
+    ],
+    "dislike": [],
+    "upside": [
+     {
+      "name": "Zay Flowers",
+      "pos": "WR",
+      "sleeper_proj": 15.6,
+      "proj": 15.6,
+      "floor_p10": 6.0,
+      "ceiling_p90": 26.6,
+      "p_win_if_bust": 0.379,
+      "p_win_if_boom": 0.64,
+      "swing": 0.261,
+      "p_dud_under_5": 0.069,
+      "p_bust": 0.206,
+      "p_neither": 0.601,
+      "p_boom": 0.193,
+      "band": 0.45,
+      "ceiling_over_proj": 11.0
+     },
+     {
+      "name": "Chase Brown",
+      "pos": "RB",
+      "sleeper_proj": 17.1,
+      "proj": 17.1,
+      "floor_p10": 7.6,
+      "ceiling_p90": 27.6,
+      "p_win_if_bust": 0.379,
+      "p_win_if_boom": 0.65,
+      "swing": 0.271,
+      "p_dud_under_5": 0.031,
+      "p_bust": 0.164,
+      "p_neither": 0.677,
+      "p_boom": 0.158,
+      "band": 0.45,
+      "ceiling_over_proj": 10.5
+     }
+    ],
+    "risers": []
+   }
+  },
+  {
+   "roster_id": 12,
+   "team": "Likely Tuten my Reichard",
+   "manager": "Bcool1",
+   "record": "0-0",
+   "sim": {
+    "mean": 115.4,
+    "floor_p10": 87.7,
+    "ceiling_p90": 143.9,
+    "sd": 21.9,
+    "lineup_states": 1,
+    "p_over_140": 0.131,
+    "p_under_95": 0.177,
+    "all_play_pct": 0.4768
+   },
+   "sim_healthy": {
+    "mean": 115.4,
+    "floor_p10": 87.7,
+    "ceiling_p90": 143.9,
+    "sd": 21.9
+   },
+   "injury_tax": {
+    "mean": 0.0,
+    "floor": 0.0,
+    "ceiling": 0.0
+   },
+   "roster_strength_ros": 1878.42,
+   "leverage": [
+    {
+     "name": "Nico Collins",
+     "pos": "WR",
+     "sleeper_proj": 16.4,
+     "proj": 16.5,
+     "floor_p10": 6.3,
+     "ceiling_p90": 28.0,
+     "p_win_if_bust": 0.366,
+     "p_win_if_boom": 0.657,
+     "swing": 0.291,
+     "p_dud_under_5": 0.063,
+     "p_bust": 0.207,
+     "p_neither": 0.601,
+     "p_boom": 0.192,
+     "band": 0.45,
+     "ceiling_over_proj": 11.6
+    },
+    {
+     "name": "Jonathan Taylor",
+     "pos": "RB",
+     "sleeper_proj": 18.8,
+     "proj": 18.9,
+     "floor_p10": 8.4,
+     "ceiling_p90": 30.5,
+     "p_win_if_bust": 0.368,
+     "p_win_if_boom": 0.652,
+     "swing": 0.285,
+     "p_dud_under_5": 0.023,
+     "p_bust": 0.159,
+     "p_neither": 0.681,
+     "p_boom": 0.16,
+     "band": 0.45,
+     "ceiling_over_proj": 11.7
+    },
+    {
+     "name": "Travis Etienne",
+     "pos": "RB",
+     "sleeper_proj": 14.5,
+     "proj": 14.5,
+     "floor_p10": 5.3,
+     "ceiling_p90": 25.3,
+     "p_win_if_bust": 0.375,
+     "p_win_if_boom": 0.645,
+     "swing": 0.27,
+     "p_dud_under_5": 0.087,
+     "p_bust": 0.212,
+     "p_neither": 0.585,
+     "p_boom": 0.203,
+     "band": 0.45,
+     "ceiling_over_proj": 10.8
+    }
+   ],
+   "availability": [],
+   "pundit": {
+    "watch": [
+     {
+      "name": "Nico Collins",
+      "pos": "WR",
+      "sleeper_proj": 16.4,
+      "proj": 16.5,
+      "floor_p10": 6.3,
+      "ceiling_p90": 28.0,
+      "p_win_if_bust": 0.366,
+      "p_win_if_boom": 0.657,
+      "swing": 0.291,
+      "p_dud_under_5": 0.063,
+      "p_bust": 0.207,
+      "p_neither": 0.601,
+      "p_boom": 0.192,
+      "band": 0.45,
+      "ceiling_over_proj": 11.6
+     },
+     {
+      "name": "Jonathan Taylor",
+      "pos": "RB",
+      "sleeper_proj": 18.8,
+      "proj": 18.9,
+      "floor_p10": 8.4,
+      "ceiling_p90": 30.5,
+      "p_win_if_bust": 0.368,
+      "p_win_if_boom": 0.652,
+      "swing": 0.285,
+      "p_dud_under_5": 0.023,
+      "p_bust": 0.159,
+      "p_neither": 0.681,
+      "p_boom": 0.16,
+      "band": 0.45,
+      "ceiling_over_proj": 11.7
+     }
+    ],
+    "reaches": [],
+    "sliding": [],
+    "dislike": [
+     {
+      "player": "Isaiah Likely",
+      "player_id": "8131",
+      "pos": "TE",
+      "pick": 90,
+      "round": 8,
+      "adp": 107.1,
+      "reach": -17.1,
+      "pos_rank_drafted": 12,
+      "pos_rank_now": 15,
+      "pos_rank_move": -3,
+      "ros_proj": 157.3,
+      "why": "lands within the band only 49% of the time, against a 30% chance of busting",
+      "p_neither": 0.492,
+      "p_bust": 0.3
+     },
+     {
+      "player": "Emeka Egbuka",
+      "player_id": "12514",
+      "pos": "WR",
+      "pick": 42,
+      "round": 4,
+      "adp": 38.3,
+      "reach": 3.7,
+      "pos_rank_drafted": 20,
+      "pos_rank_now": 19,
+      "pos_rank_move": 1,
+      "ros_proj": 224.0,
+      "why": "lands within the band only 54% of the time, against a 24% chance of busting",
+      "p_neither": 0.542,
+      "p_bust": 0.24
+     }
+    ],
+    "upside": [
+     {
+      "name": "Jonathan Taylor",
+      "pos": "RB",
+      "sleeper_proj": 18.8,
+      "proj": 18.9,
+      "floor_p10": 8.4,
+      "ceiling_p90": 30.5,
+      "p_win_if_bust": 0.368,
+      "p_win_if_boom": 0.652,
+      "swing": 0.285,
+      "p_dud_under_5": 0.023,
+      "p_bust": 0.159,
+      "p_neither": 0.681,
+      "p_boom": 0.16,
+      "band": 0.45,
+      "ceiling_over_proj": 11.7
+     },
+     {
+      "name": "Nico Collins",
+      "pos": "WR",
+      "sleeper_proj": 16.4,
+      "proj": 16.5,
+      "floor_p10": 6.3,
+      "ceiling_p90": 28.0,
+      "p_win_if_bust": 0.366,
+      "p_win_if_boom": 0.657,
+      "swing": 0.291,
+      "p_dud_under_5": 0.063,
+      "p_bust": 0.207,
+      "p_neither": 0.601,
+      "p_boom": 0.192,
+      "band": 0.45,
+      "ceiling_over_proj": 11.6
+     }
+    ],
+    "risers": [
+     {
+      "player": "Jayden Reed",
+      "player_id": "10222",
+      "pos": "WR",
+      "pick": 114,
+      "round": 10,
+      "adp": 108.1,
+      "reach": 5.9,
+      "pos_rank_drafted": 44,
+      "pos_rank_now": 29,
+      "pos_rank_move": 15,
+      "ros_proj": 197.6
+     }
+    ]
+   }
+  },
+  {
+   "roster_id": 8,
+   "team": "Montgomery Bus Boycott",
+   "manager": "nelsw",
+   "record": "0-0",
+   "sim": {
+    "mean": 111.9,
+    "floor_p10": 85.0,
+    "ceiling_p90": 140.0,
+    "sd": 21.3,
+    "lineup_states": 4,
+    "p_over_140": 0.1,
+    "p_under_95": 0.22,
+    "all_play_pct": 0.426
+   },
+   "sim_healthy": {
+    "mean": 120.0,
+    "floor_p10": 92.4,
+    "ceiling_p90": 149.1,
+    "sd": 22.2
+   },
+   "injury_tax": {
+    "mean": -8.1,
+    "floor": -7.4,
+    "ceiling": -9.1
+   },
+   "roster_strength_ros": 1927.5,
+   "leverage": [
+    {
+     "name": "Puka Nacua",
+     "pos": "WR",
+     "sleeper_proj": 21.0,
+     "proj": 20.9,
+     "floor_p10": 7.9,
+     "ceiling_p90": 35.7,
+     "p_win_if_bust": 0.221,
+     "p_win_if_boom": 0.576,
+     "swing": 0.355,
+     "p_dud_under_5": 0.046,
+     "p_bust": 0.21,
+     "p_neither": 0.599,
+     "p_boom": 0.191,
+     "band": 0.45,
+     "ceiling_over_proj": 14.7
+    },
+    {
+     "name": "Vikings",
+     "pos": "DEF",
+     "sleeper_proj": 5.6,
+     "proj": 6.0,
+     "floor_p10": -3.0,
+     "ceiling_p90": 16.5,
+     "p_win_if_bust": 0.287,
+     "p_win_if_boom": 0.518,
+     "swing": 0.231,
+     "p_dud_under_5": 0.533,
+     "p_bust": 0.41,
+     "p_neither": 0.272,
+     "p_boom": 0.318,
+     "band": 0.45
+    },
+    {
+     "name": "David Montgomery",
+     "pos": "RB",
+     "sleeper_proj": 15.3,
+     "proj": 15.3,
+     "floor_p10": 6.8,
+     "ceiling_p90": 24.8,
+     "p_win_if_bust": 0.279,
+     "p_win_if_boom": 0.499,
+     "swing": 0.22,
+     "p_dud_under_5": 0.039,
+     "p_bust": 0.161,
+     "p_neither": 0.682,
+     "p_boom": 0.158,
+     "band": 0.45,
+     "ceiling_over_proj": 9.5
+    }
+   ],
+   "availability": [
+    {
+     "player": "A.J. Brown",
+     "pos": "WR",
+     "slot": "WR",
+     "designation": "Out",
+     "practice": null,
+     "p_play": 0.001,
+     "rate_fitted": true,
+     "rate_n": 1068,
+     "source": "sleeper",
+     "note": "",
+     "proj_if_plays": 16.9,
+     "replacement": "Jordan Addison",
+     "replacement_proj": 11.4,
+     "dropoff": 5.4
+    },
+    {
+     "player": "Jeremiyah Love",
+     "pos": "RB",
+     "slot": "RB",
+     "designation": "Questionable",
+     "practice": null,
+     "p_play": 0.63,
+     "rate_fitted": true,
+     "rate_n": 1312,
+     "source": "sleeper",
+     "note": "",
+     "proj_if_plays": 11.4,
+     "replacement": "Chris Rodriguez",
+     "replacement_proj": 6.3,
+     "dropoff": 5.2
+    }
+   ],
+   "pundit": {
+    "watch": [
+     {
+      "name": "Puka Nacua",
+      "pos": "WR",
+      "sleeper_proj": 21.0,
+      "proj": 20.9,
+      "floor_p10": 7.9,
+      "ceiling_p90": 35.7,
+      "p_win_if_bust": 0.221,
+      "p_win_if_boom": 0.576,
+      "swing": 0.355,
+      "p_dud_under_5": 0.046,
+      "p_bust": 0.21,
+      "p_neither": 0.599,
+      "p_boom": 0.191,
+      "band": 0.45,
+      "ceiling_over_proj": 14.7
+     },
+     {
+      "name": "David Montgomery",
+      "pos": "RB",
+      "sleeper_proj": 15.3,
+      "proj": 15.3,
+      "floor_p10": 6.8,
+      "ceiling_p90": 24.8,
+      "p_win_if_bust": 0.279,
+      "p_win_if_boom": 0.499,
+      "swing": 0.22,
+      "p_dud_under_5": 0.039,
+      "p_bust": 0.161,
+      "p_neither": 0.682,
+      "p_boom": 0.158,
+      "band": 0.45,
+      "ceiling_over_proj": 9.5
+     }
+    ],
+    "reaches": [
+     {
+      "player": "Cam Little",
+      "player_id": "11786",
+      "pos": "K",
+      "pick": 149,
+      "round": 13,
+      "adp": 132.0,
+      "reach": 17.0,
+      "pos_rank_drafted": 5,
+      "pos_rank_now": 3,
+      "pos_rank_move": 2,
+      "ros_proj": 167.2
+     },
+     {
+      "player": "TreVeyon Henderson",
+      "player_id": "12529",
+      "pos": "RB",
+      "pick": 77,
+      "round": 7,
+      "adp": 60.8,
+      "reach": 16.2,
+      "pos_rank_drafted": 26,
+      "pos_rank_now": 24,
+      "pos_rank_move": 2,
+      "ros_proj": 171.0
+     }
+    ],
+    "sliding": [
+     {
+      "player": "Ja'Kobi Lane",
+      "player_id": "13293",
+      "pos": "WR",
+      "pick": 164,
+      "round": 14,
+      "adp": 159.6,
+      "reach": 4.4,
+      "pos_rank_drafted": 58,
+      "pos_rank_now": 72,
+      "pos_rank_move": -14,
+      "ros_proj": 104.9
+     },
+     {
+      "player": "De'Zhaun Stribling",
+      "player_id": "13417",
+      "pos": "WR",
+      "pick": 125,
+      "round": 11,
+      "adp": 138.4,
+      "reach": -13.4,
+      "pos_rank_drafted": 50,
+      "pos_rank_now": 59,
+      "pos_rank_move": -9,
+      "ros_proj": 128.4
+     }
+    ],
+    "dislike": [
+     {
+      "player": "DK Metcalf",
+      "player_id": "5846",
+      "pos": "WR",
+      "pick": 92,
+      "round": 8,
+      "adp": 75.0,
+      "reach": 17.0,
+      "pos_rank_drafted": 37,
+      "pos_rank_now": 33,
+      "pos_rank_move": 4,
+      "ros_proj": 183.3,
+      "why": "lands within the band only 54% of the time, against a 24% chance of busting",
+      "p_neither": 0.537,
+      "p_bust": 0.244
+     },
+     {
+      "player": "A.J. Brown",
+      "player_id": "5859",
+      "pos": "WR",
+      "pick": 20,
+      "round": 2,
+      "adp": 17.3,
+      "reach": 2.7,
+      "pos_rank_drafted": 9,
+      "pos_rank_now": 9,
+      "pos_rank_move": 0,
+      "ros_proj": 247.2,
+      "why": "0% to play and the lineup loses 5.4 if he sits",
+      "p_neither": null,
+      "p_bust": null
+     }
+    ],
+    "upside": [
+     {
+      "name": "Puka Nacua",
+      "pos": "WR",
+      "sleeper_proj": 21.0,
+      "proj": 20.9,
+      "floor_p10": 7.9,
+      "ceiling_p90": 35.7,
+      "p_win_if_bust": 0.221,
+      "p_win_if_boom": 0.576,
+      "swing": 0.355,
+      "p_dud_under_5": 0.046,
+      "p_bust": 0.21,
+      "p_neither": 0.599,
+      "p_boom": 0.191,
+      "band": 0.45,
+      "ceiling_over_proj": 14.7
+     },
+     {
+      "name": "A.J. Brown",
+      "pos": "WR",
+      "sleeper_proj": 16.9,
+      "proj": 16.9,
+      "floor_p10": 6.4,
+      "ceiling_p90": 28.7,
+      "p_win_if_bust": 0.359,
+      "p_win_if_boom": 0.384,
+      "swing": 0.025,
+      "p_dud_under_5": 0.058,
+      "p_bust": 0.205,
+      "p_neither": 0.602,
+      "p_boom": 0.192,
+      "band": 0.45,
+      "ceiling_over_proj": 11.8
+     }
+    ],
+    "risers": []
+   }
+  },
+  {
+   "roster_id": 10,
+   "team": "Allentown",
+   "manager": "Liorbd",
+   "record": "0-0",
+   "sim": {
+    "mean": 111.5,
+    "floor_p10": 84.8,
+    "ceiling_p90": 139.1,
+    "sd": 21.2,
+    "lineup_states": 1,
+    "p_over_140": 0.093,
+    "p_under_95": 0.222,
+    "all_play_pct": 0.4221
+   },
+   "sim_healthy": {
+    "mean": 111.5,
+    "floor_p10": 84.8,
+    "ceiling_p90": 139.1,
+    "sd": 21.2
+   },
+   "injury_tax": {
+    "mean": 0.0,
+    "floor": 0.0,
+    "ceiling": 0.0
+   },
+   "roster_strength_ros": 1930.4,
+   "leverage": [
+    {
+     "name": "Josh Allen",
+     "pos": "QB",
+     "sleeper_proj": 18.8,
+     "proj": 18.8,
+     "floor_p10": 9.7,
+     "ceiling_p90": 28.6,
+     "p_win_if_bust": 0.278,
+     "p_win_if_boom": 0.605,
+     "swing": 0.327,
+     "p_dud_under_5": 0.039,
+     "p_bust": 0.112,
+     "p_neither": 0.764,
+     "p_boom": 0.123,
+     "band": 0.45,
+     "ceiling_over_proj": 9.8
+    },
+    {
+     "name": "Jahmyr Gibbs",
+     "pos": "RB",
+     "sleeper_proj": 22.1,
+     "proj": 22.1,
+     "floor_p10": 9.8,
+     "ceiling_p90": 35.7,
+     "p_win_if_bust": 0.284,
+     "p_win_if_boom": 0.61,
+     "swing": 0.326,
+     "p_dud_under_5": 0.019,
+     "p_bust": 0.161,
+     "p_neither": 0.681,
+     "p_boom": 0.158,
+     "band": 0.45,
+     "ceiling_over_proj": 13.6
+    },
+    {
+     "name": "DJ Moore",
+     "pos": "WR",
+     "sleeper_proj": 11.2,
+     "proj": 11.1,
+     "floor_p10": 3.4,
+     "ceiling_p90": 19.6,
+     "p_win_if_bust": 0.294,
+     "p_win_if_boom": 0.605,
+     "swing": 0.311,
+     "p_dud_under_5": 0.185,
+     "p_bust": 0.248,
+     "p_neither": 0.536,
+     "p_boom": 0.216,
+     "band": 0.45,
+     "ceiling_over_proj": 8.4
+    }
+   ],
+   "availability": [],
+   "pundit": {
+    "watch": [
+     {
+      "name": "Josh Allen",
+      "pos": "QB",
+      "sleeper_proj": 18.8,
+      "proj": 18.8,
+      "floor_p10": 9.7,
+      "ceiling_p90": 28.6,
+      "p_win_if_bust": 0.278,
+      "p_win_if_boom": 0.605,
+      "swing": 0.327,
+      "p_dud_under_5": 0.039,
+      "p_bust": 0.112,
+      "p_neither": 0.764,
+      "p_boom": 0.123,
+      "band": 0.45,
+      "ceiling_over_proj": 9.8
+     },
+     {
+      "name": "Jahmyr Gibbs",
+      "pos": "RB",
+      "sleeper_proj": 22.1,
+      "proj": 22.1,
+      "floor_p10": 9.8,
+      "ceiling_p90": 35.7,
+      "p_win_if_bust": 0.284,
+      "p_win_if_boom": 0.61,
+      "swing": 0.326,
+      "p_dud_under_5": 0.019,
+      "p_bust": 0.161,
+      "p_neither": 0.681,
+      "p_boom": 0.158,
+      "band": 0.45,
+      "ceiling_over_proj": 13.6
+     }
+    ],
+    "reaches": [
+     {
+      "player": "Eagles",
+      "player_id": "PHI",
+      "pos": "DEF",
+      "pick": 145,
+      "round": 13,
+      "adp": 123.0,
+      "reach": 22.0,
+      "pos_rank_drafted": 5,
+      "pos_rank_now": 4,
+      "pos_rank_move": 1,
+      "ros_proj": 99.0
+     },
+     {
+      "player": "RJ Harvey",
+      "player_id": "12489",
+      "pos": "RB",
+      "pick": 96,
+      "round": 8,
+      "adp": 81.4,
+      "reach": 14.6,
+      "pos_rank_drafted": 34,
+      "pos_rank_now": 37,
+      "pos_rank_move": -3,
+      "ros_proj": 144.1
+     }
+    ],
+    "sliding": [],
+    "dislike": [
+     {
+      "player": "Travis Kelce",
+      "player_id": "1466",
+      "pos": "TE",
+      "pick": 73,
+      "round": 7,
+      "adp": 89.5,
+      "reach": -16.5,
+      "pos_rank_drafted": 9,
+      "pos_rank_now": 9,
+      "pos_rank_move": 0,
+      "ros_proj": 171.4,
+      "why": "lands within the band only 50% of the time, against a 30% chance of busting",
+      "p_neither": 0.499,
+      "p_bust": 0.295
+     },
+     {
+      "player": "DJ Moore",
+      "player_id": "4983",
+      "pos": "WR",
+      "pick": 48,
+      "round": 4,
+      "adp": 54.0,
+      "reach": -6.0,
+      "pos_rank_drafted": 23,
+      "pos_rank_now": 34,
+      "pos_rank_move": -11,
+      "ros_proj": 179.0,
+      "why": "lands within the band only 54% of the time, against a 25% chance of busting",
+      "p_neither": 0.536,
+      "p_bust": 0.248
+     }
+    ],
+    "upside": [
+     {
+      "name": "Jahmyr Gibbs",
+      "pos": "RB",
+      "sleeper_proj": 22.1,
+      "proj": 22.1,
+      "floor_p10": 9.8,
+      "ceiling_p90": 35.7,
+      "p_win_if_bust": 0.284,
+      "p_win_if_boom": 0.61,
+      "swing": 0.326,
+      "p_dud_under_5": 0.019,
+      "p_bust": 0.161,
+      "p_neither": 0.681,
+      "p_boom": 0.158,
+      "band": 0.45,
+      "ceiling_over_proj": 13.6
+     },
+     {
+      "name": "Josh Allen",
+      "pos": "QB",
+      "sleeper_proj": 18.8,
+      "proj": 18.8,
+      "floor_p10": 9.7,
+      "ceiling_p90": 28.6,
+      "p_win_if_bust": 0.278,
+      "p_win_if_boom": 0.605,
+      "swing": 0.327,
+      "p_dud_under_5": 0.039,
+      "p_bust": 0.112,
+      "p_neither": 0.764,
+      "p_boom": 0.123,
+      "band": 0.45,
+      "ceiling_over_proj": 9.8
+     }
+    ],
+    "risers": []
+   }
+  }
+ ],
+ "matchups": [
+  {
+   "home_roster_id": 3,
+   "away_roster_id": 12,
+   "home": "Chase Brown v. BOE",
+   "away": "Likely Tuten my Reichard",
+   "home_win_prob": 0.502,
+   "home_mean": 115.5,
+   "away_mean": 115.4,
+   "home_range_80": [
+    89.2,
+    142.9
+   ],
+   "away_range_80": [
+    87.7,
+    143.9
+   ],
+   "median_margin": 0.2,
+   "p_blowout_30": 0.314,
+   "p_nailbiter_5": 0.131,
+   "home_win_prob_healthy": 0.5092,
+   "bands": {
+    "home": {
+     "floor": {
+      "score": 89.2,
+      "win_odds": 0.115
+     },
+     "expected": {
+      "score": 114.9,
+      "win_odds": 0.505
+     },
+     "ceiling": {
+      "score": 142.9,
+      "win_odds": 0.893
+     }
+    },
+    "away": {
+     "floor": {
+      "score": 87.7,
+      "win_odds": 0.086
+     },
+     "expected": {
+      "score": 114.6,
+      "win_odds": 0.495
+     },
+     "ceiling": {
+      "score": 143.9,
+      "win_odds": 0.908
+     }
+    }
+   },
+   "home_key_players": [
+    {
+     "name": "Chase Brown",
+     "pos": "RB",
+     "sleeper_proj": 17.1,
+     "proj": 17.1,
+     "floor_p10": 7.6,
+     "ceiling_p90": 27.6,
+     "p_win_if_bust": 0.379,
+     "p_win_if_boom": 0.65,
+     "swing": 0.271,
+     "p_dud_under_5": 0.031,
+     "p_bust": 0.164,
+     "p_neither": 0.677,
+     "p_boom": 0.158,
+     "band": 0.45,
+     "ceiling_over_proj": 10.5
+    },
+    {
+     "name": "Raiders",
+     "pos": "DEF",
+     "sleeper_proj": 7.8,
+     "proj": 7.9,
+     "floor_p10": -0.9,
+     "ceiling_p90": 18.8,
+     "p_win_if_bust": 0.389,
+     "p_win_if_boom": 0.654,
+     "swing": 0.264,
+     "p_dud_under_5": 0.421,
+     "p_bust": 0.382,
+     "p_neither": 0.341,
+     "p_boom": 0.276,
+     "band": 0.45
+    },
+    {
+     "name": "Zay Flowers",
+     "pos": "WR",
+     "sleeper_proj": 15.6,
+     "proj": 15.6,
+     "floor_p10": 6.0,
+     "ceiling_p90": 26.6,
+     "p_win_if_bust": 0.379,
+     "p_win_if_boom": 0.64,
+     "swing": 0.261,
+     "p_dud_under_5": 0.069,
+     "p_bust": 0.206,
+     "p_neither": 0.601,
+     "p_boom": 0.193,
+     "band": 0.45,
+     "ceiling_over_proj": 11.0
+    }
+   ],
+   "home_availability": [],
+   "home_injury_tax": -0.5,
+   "home_record": "0-0",
+   "away_key_players": [
+    {
+     "name": "Nico Collins",
+     "pos": "WR",
+     "sleeper_proj": 16.4,
+     "proj": 16.5,
+     "floor_p10": 6.3,
+     "ceiling_p90": 28.0,
+     "p_win_if_bust": 0.366,
+     "p_win_if_boom": 0.657,
+     "swing": 0.291,
+     "p_dud_under_5": 0.063,
+     "p_bust": 0.207,
+     "p_neither": 0.601,
+     "p_boom": 0.192,
+     "band": 0.45,
+     "ceiling_over_proj": 11.6
+    },
+    {
+     "name": "Jonathan Taylor",
+     "pos": "RB",
+     "sleeper_proj": 18.8,
+     "proj": 18.9,
+     "floor_p10": 8.4,
+     "ceiling_p90": 30.5,
+     "p_win_if_bust": 0.368,
+     "p_win_if_boom": 0.652,
+     "swing": 0.285,
+     "p_dud_under_5": 0.023,
+     "p_bust": 0.159,
+     "p_neither": 0.681,
+     "p_boom": 0.16,
+     "band": 0.45,
+     "ceiling_over_proj": 11.7
+    },
+    {
+     "name": "Travis Etienne",
+     "pos": "RB",
+     "sleeper_proj": 14.5,
+     "proj": 14.5,
+     "floor_p10": 5.3,
+     "ceiling_p90": 25.3,
+     "p_win_if_bust": 0.375,
+     "p_win_if_boom": 0.645,
+     "swing": 0.27,
+     "p_dud_under_5": 0.087,
+     "p_bust": 0.212,
+     "p_neither": 0.585,
+     "p_boom": 0.203,
+     "band": 0.45,
+     "ceiling_over_proj": 10.8
+    }
+   ],
+   "away_availability": [],
+   "away_injury_tax": 0.0,
+   "away_record": "0-0"
+  },
+  {
+   "home_roster_id": 1,
+   "away_roster_id": 7,
+   "home": "Mike HubbaChuba",
+   "away": "Nastey Mastey",
+   "home_win_prob": 0.5088,
+   "home_mean": 117.4,
+   "away_mean": 116.5,
+   "home_range_80": [
+    89.9,
+    146.0
+   ],
+   "away_range_80": [
+    90.2,
+    144.1
+   ],
+   "median_margin": 0.6,
+   "p_blowout_30": 0.315,
+   "p_nailbiter_5": 0.131,
+   "home_win_prob_healthy": 0.4779,
+   "bands": {
+    "home": {
+     "floor": {
+      "score": 89.9,
+      "win_odds": 0.097
+     },
+     "expected": {
+      "score": 116.4,
+      "win_odds": 0.512
+     },
+     "ceiling": {
+      "score": 146.0,
+      "win_odds": 0.915
+     }
+    },
+    "away": {
+     "floor": {
+      "score": 90.2,
+      "win_odds": 0.103
+     },
+     "expected": {
+      "score": 115.8,
+      "win_odds": 0.489
+     },
+     "ceiling": {
+      "score": 144.1,
+      "win_odds": 0.886
+     }
+    }
+   },
+   "home_key_players": [
+    {
+     "name": "Amon-Ra St. Brown",
+     "pos": "WR",
+     "sleeper_proj": 20.2,
+     "proj": 20.1,
+     "floor_p10": 7.7,
+     "ceiling_p90": 34.4,
+     "p_win_if_bust": 0.37,
+     "p_win_if_boom": 0.681,
+     "swing": 0.311,
+     "p_dud_under_5": 0.046,
+     "p_bust": 0.21,
+     "p_neither": 0.6,
+     "p_boom": 0.19,
+     "band": 0.45,
+     "ceiling_over_proj": 14.2
+    },
+    {
+     "name": "Drake London",
+     "pos": "WR",
+     "sleeper_proj": 15.4,
+     "proj": 15.4,
+     "floor_p10": 5.9,
+     "ceiling_p90": 26.3,
+     "p_win_if_bust": 0.388,
+     "p_win_if_boom": 0.653,
+     "swing": 0.265,
+     "p_dud_under_5": 0.073,
+     "p_bust": 0.208,
+     "p_neither": 0.598,
+     "p_boom": 0.193,
+     "band": 0.45,
+     "ceiling_over_proj": 10.9
+    },
+    {
+     "name": "Trey McBride",
+     "pos": "TE",
+     "sleeper_proj": 14.2,
+     "proj": 14.2,
+     "floor_p10": 5.1,
+     "ceiling_p90": 25.0,
+     "p_win_if_bust": 0.395,
+     "p_win_if_boom": 0.65,
+     "swing": 0.256,
+     "p_dud_under_5": 0.095,
+     "p_bust": 0.227,
+     "p_neither": 0.577,
+     "p_boom": 0.195,
+     "band": 0.45,
+     "ceiling_over_proj": 10.8
+    }
+   ],
+   "home_availability": [],
+   "home_injury_tax": 0.0,
+   "home_record": "0-0",
+   "away_key_players": [
+    {
+     "name": "Justin Jefferson",
+     "pos": "WR",
+     "sleeper_proj": 17.1,
+     "proj": 17.1,
+     "floor_p10": 6.5,
+     "ceiling_p90": 29.1,
+     "p_win_if_bust": 0.348,
+     "p_win_if_boom": 0.649,
+     "swing": 0.3,
+     "p_dud_under_5": 0.057,
+     "p_bust": 0.207,
+     "p_neither": 0.605,
+     "p_boom": 0.188,
+     "band": 0.45,
+     "ceiling_over_proj": 12.0
+    },
+    {
+     "name": "Jalen Hurts",
+     "pos": "QB",
+     "sleeper_proj": 22.4,
+     "proj": 22.4,
+     "floor_p10": 12.2,
+     "ceiling_p90": 32.1,
+     "p_win_if_bust": 0.357,
+     "p_win_if_boom": 0.636,
+     "swing": 0.28,
+     "p_dud_under_5": 0.0,
+     "p_bust": 0.115,
+     "p_neither": 0.786,
+     "p_boom": 0.099,
+     "band": 0.45,
+     "ceiling_over_proj": 9.7
+    },
+    {
+     "name": "Colston Loveland",
+     "pos": "TE",
+     "sleeper_proj": 13.9,
+     "proj": 13.9,
+     "floor_p10": 4.9,
+     "ceiling_p90": 24.4,
+     "p_win_if_bust": 0.379,
+     "p_win_if_boom": 0.623,
+     "swing": 0.244,
+     "p_dud_under_5": 0.102,
+     "p_bust": 0.228,
+     "p_neither": 0.581,
+     "p_boom": 0.191,
+     "band": 0.45,
+     "ceiling_over_proj": 10.5
+    }
+   ],
+   "away_availability": [
+    {
+     "player": "Malik Nabers",
+     "pos": "WR",
+     "slot": "WR",
+     "designation": "Questionable",
+     "practice": null,
+     "p_play": 0.63,
+     "rate_fitted": true,
+     "rate_n": 1312,
+     "source": "sleeper",
+     "note": "Surgery",
+     "proj_if_plays": 14.0,
+     "replacement": "Chris Godwin",
+     "replacement_proj": 10.2,
+     "dropoff": 3.8
+    }
+   ],
+   "away_injury_tax": -2.4,
+   "away_record": "0-0"
+  },
+  {
+   "home_roster_id": 2,
+   "away_roster_id": 4,
+   "home": "Evo Mega Knight",
+   "away": "HYPE BEASTS",
+   "home_win_prob": 0.4668,
+   "home_mean": 117.7,
+   "away_mean": 120.6,
+   "home_range_80": [
+    89.6,
+    146.9
+   ],
+   "away_range_80": [
+    92.9,
+    149.5
+   ],
+   "median_margin": -2.7,
+   "p_blowout_30": 0.318,
+   "p_nailbiter_5": 0.129,
+   "home_win_prob_healthy": 0.4668,
+   "bands": {
+    "home": {
+     "floor": {
+      "score": 89.6,
+      "win_odds": 0.074
+     },
+     "expected": {
+      "score": 116.9,
+      "win_odds": 0.448
+     },
+     "ceiling": {
+      "score": 146.9,
+      "win_odds": 0.881
+     }
+    },
+    "away": {
+     "floor": {
+      "score": 92.9,
+      "win_odds": 0.132
+     },
+     "expected": {
+      "score": 119.8,
+      "win_odds": 0.553
+     },
+     "ceiling": {
+      "score": 149.5,
+      "win_odds": 0.918
+     }
+    }
+   },
+   "home_key_players": [
+    {
+     "name": "Bijan Robinson",
+     "pos": "RB",
+     "sleeper_proj": 20.1,
+     "proj": 20.1,
+     "floor_p10": 8.9,
+     "ceiling_p90": 32.5,
+     "p_win_if_bust": 0.323,
+     "p_win_if_boom": 0.631,
+     "swing": 0.308,
+     "p_dud_under_5": 0.02,
+     "p_bust": 0.162,
+     "p_neither": 0.679,
+     "p_boom": 0.16,
+     "band": 0.45,
+     "ceiling_over_proj": 12.4
+    },
+    {
+     "name": "Javonte Williams",
+     "pos": "RB",
+     "sleeper_proj": 17.7,
+     "proj": 17.7,
+     "floor_p10": 7.9,
+     "ceiling_p90": 28.6,
+     "p_win_if_bust": 0.331,
+     "p_win_if_boom": 0.624,
+     "swing": 0.293,
+     "p_dud_under_5": 0.029,
+     "p_bust": 0.162,
+     "p_neither": 0.68,
+     "p_boom": 0.158,
+     "band": 0.45,
+     "ceiling_over_proj": 10.9
+    },
+    {
+     "name": "George Pickens",
+     "pos": "WR",
+     "sleeper_proj": 15.8,
+     "proj": 15.7,
+     "floor_p10": 6.0,
+     "ceiling_p90": 26.8,
+     "p_win_if_bust": 0.333,
+     "p_win_if_boom": 0.625,
+     "swing": 0.292,
+     "p_dud_under_5": 0.068,
+     "p_bust": 0.207,
+     "p_neither": 0.603,
+     "p_boom": 0.19,
+     "band": 0.45,
+     "ceiling_over_proj": 11.0
+    }
+   ],
+   "home_availability": [],
+   "home_injury_tax": 0.0,
+   "home_record": "0-0",
+   "away_key_players": [
+    {
+     "name": "Ja'Marr Chase",
+     "pos": "WR",
+     "sleeper_proj": 20.4,
+     "proj": 20.4,
+     "floor_p10": 7.8,
+     "ceiling_p90": 34.7,
+     "p_win_if_bust": 0.366,
+     "p_win_if_boom": 0.724,
+     "swing": 0.358,
+     "p_dud_under_5": 0.044,
+     "p_bust": 0.206,
+     "p_neither": 0.603,
+     "p_boom": 0.191,
+     "band": 0.45,
+     "ceiling_over_proj": 14.3
+    },
+    {
+     "name": "Chargers",
+     "pos": "DEF",
+     "sleeper_proj": 7.5,
+     "proj": 7.7,
+     "floor_p10": -0.8,
+     "ceiling_p90": 18.4,
+     "p_win_if_bust": 0.412,
+     "p_win_if_boom": 0.688,
+     "swing": 0.276,
+     "p_dud_under_5": 0.418,
+     "p_bust": 0.375,
+     "p_neither": 0.346,
+     "p_boom": 0.279,
+     "band": 0.45
+    },
+    {
+     "name": "Kyren Williams",
+     "pos": "RB",
+     "sleeper_proj": 14.6,
+     "proj": 14.7,
+     "floor_p10": 5.4,
+     "ceiling_p90": 25.7,
+     "p_win_if_bust": 0.424,
+     "p_win_if_boom": 0.66,
+     "swing": 0.236,
+     "p_dud_under_5": 0.085,
+     "p_bust": 0.218,
+     "p_neither": 0.579,
+     "p_boom": 0.203,
+     "band": 0.45,
+     "ceiling_over_proj": 11.1
+    }
+   ],
+   "away_availability": [],
+   "away_injury_tax": 0.0,
+   "away_record": "0-0"
+  },
+  {
+   "home_roster_id": 6,
+   "away_roster_id": 11,
+   "home": "samlewittes",
+   "away": "Soudry",
+   "home_win_prob": 0.4448,
+   "home_mean": 118.1,
+   "away_mean": 122.4,
+   "home_range_80": [
+    90.5,
+    146.6
+   ],
+   "away_range_80": [
+    94.2,
+    151.7
+   ],
+   "median_margin": -4.2,
+   "p_blowout_30": 0.342,
+   "p_nailbiter_5": 0.127,
+   "home_win_prob_healthy": 0.4448,
+   "bands": {
+    "home": {
+     "floor": {
+      "score": 90.5,
+      "win_odds": 0.071
+     },
+     "expected": {
+      "score": 117.2,
+      "win_odds": 0.427
+     },
+     "ceiling": {
+      "score": 146.6,
+      "win_odds": 0.86
+     }
+    },
+    "away": {
+     "floor": {
+      "score": 94.2,
+      "win_odds": 0.138
+     },
+     "expected": {
+      "score": 121.3,
+      "win_odds": 0.572
+     },
+     "ceiling": {
+      "score": 151.7,
+      "win_odds": 0.932
+     }
+    }
+   },
+   "home_key_players": [
+    {
+     "name": "DeVonta Smith",
+     "pos": "WR",
+     "sleeper_proj": 16.4,
+     "proj": 16.4,
+     "floor_p10": 6.2,
+     "ceiling_p90": 27.9,
+     "p_win_if_bust": 0.308,
+     "p_win_if_boom": 0.604,
+     "swing": 0.296,
+     "p_dud_under_5": 0.065,
+     "p_bust": 0.209,
+     "p_neither": 0.599,
+     "p_boom": 0.192,
+     "band": 0.45,
+     "ceiling_over_proj": 11.5
+    },
+    {
+     "name": "Jaguars",
+     "pos": "DEF",
+     "sleeper_proj": 8.9,
+     "proj": 9.0,
+     "floor_p10": -1.0,
+     "ceiling_p90": 21.2,
+     "p_win_if_bust": 0.323,
+     "p_win_if_boom": 0.605,
+     "swing": 0.282,
+     "p_dud_under_5": 0.381,
+     "p_bust": 0.376,
+     "p_neither": 0.351,
+     "p_boom": 0.273,
+     "band": 0.45
+    },
+    {
+     "name": "Brock Purdy",
+     "pos": "QB",
+     "sleeper_proj": 18.5,
+     "proj": 18.4,
+     "floor_p10": 9.5,
+     "ceiling_p90": 27.6,
+     "p_win_if_bust": 0.32,
+     "p_win_if_boom": 0.57,
+     "swing": 0.251,
+     "p_dud_under_5": 0.04,
+     "p_bust": 0.111,
+     "p_neither": 0.767,
+     "p_boom": 0.121,
+     "band": 0.45,
+     "ceiling_over_proj": 9.1
+    }
+   ],
+   "home_availability": [],
+   "home_injury_tax": 0.0,
+   "home_record": "0-0",
+   "away_key_players": [
+    {
+     "name": "Tee Higgins",
+     "pos": "WR",
+     "sleeper_proj": 16.1,
+     "proj": 16.2,
+     "floor_p10": 6.2,
+     "ceiling_p90": 27.4,
+     "p_win_if_bust": 0.388,
+     "p_win_if_boom": 0.741,
+     "swing": 0.353,
+     "p_dud_under_5": 0.065,
+     "p_bust": 0.201,
+     "p_neither": 0.608,
+     "p_boom": 0.191,
+     "band": 0.45,
+     "ceiling_over_proj": 11.3
+    },
+    {
+     "name": "Joe Burrow",
+     "pos": "QB",
+     "sleeper_proj": 21.3,
+     "proj": 21.4,
+     "floor_p10": 11.6,
+     "ceiling_p90": 31.3,
+     "p_win_if_bust": 0.392,
+     "p_win_if_boom": 0.707,
+     "swing": 0.316,
+     "p_dud_under_5": 0.0,
+     "p_bust": 0.111,
+     "p_neither": 0.786,
+     "p_boom": 0.103,
+     "band": 0.45,
+     "ceiling_over_proj": 10.0
+    },
+    {
+     "name": "CeeDee Lamb",
+     "pos": "WR",
+     "sleeper_proj": 16.3,
+     "proj": 16.2,
+     "floor_p10": 6.2,
+     "ceiling_p90": 27.7,
+     "p_win_if_bust": 0.435,
+     "p_win_if_boom": 0.684,
+     "swing": 0.249,
+     "p_dud_under_5": 0.068,
+     "p_bust": 0.209,
+     "p_neither": 0.603,
+     "p_boom": 0.187,
+     "band": 0.45,
+     "ceiling_over_proj": 11.4
+    }
+   ],
+   "away_availability": [],
+   "away_injury_tax": 0.0,
+   "away_record": "0-0"
+  },
+  {
+   "home_roster_id": 5,
+   "away_roster_id": 10,
+   "home": "Mayebe shit",
+   "away": "Allentown",
+   "home_win_prob": 0.5664,
+   "home_mean": 116.3,
+   "away_mean": 111.5,
+   "home_range_80": [
+    91.1,
+    142.1
+   ],
+   "away_range_80": [
+    84.8,
+    139.1
+   ],
+   "median_margin": 4.9,
+   "p_blowout_30": 0.304,
+   "p_nailbiter_5": 0.136,
+   "home_win_prob_healthy": 0.5664,
+   "bands": {
+    "home": {
+     "floor": {
+      "score": 91.1,
+      "win_odds": 0.168
+     },
+     "expected": {
+      "score": 115.8,
+      "win_odds": 0.591
+     },
+     "ceiling": {
+      "score": 142.1,
+      "win_odds": 0.923
+     }
+    },
+    "away": {
+     "floor": {
+      "score": 84.8,
+      "win_odds": 0.052
+     },
+     "expected": {
+      "score": 111.0,
+      "win_odds": 0.407
+     },
+     "ceiling": {
+      "score": 139.1,
+      "win_odds": 0.871
+     }
+    }
+   },
+   "home_key_players": [
+    {
+     "name": "Ashton Jeanty",
+     "pos": "RB",
+     "sleeper_proj": 15.8,
+     "proj": 15.8,
+     "floor_p10": 7.0,
+     "ceiling_p90": 25.4,
+     "p_win_if_bust": 0.439,
+     "p_win_if_boom": 0.699,
+     "swing": 0.26,
+     "p_dud_under_5": 0.035,
+     "p_bust": 0.161,
+     "p_neither": 0.683,
+     "p_boom": 0.156,
+     "band": 0.45,
+     "ceiling_over_proj": 9.6
+    },
+    {
+     "name": "Rashee Rice",
+     "pos": "WR",
+     "sleeper_proj": 12.9,
+     "proj": 12.9,
+     "floor_p10": 4.0,
+     "ceiling_p90": 22.7,
+     "p_win_if_bust": 0.453,
+     "p_win_if_boom": 0.7,
+     "swing": 0.246,
+     "p_dud_under_5": 0.14,
+     "p_bust": 0.242,
+     "p_neither": 0.535,
+     "p_boom": 0.223,
+     "band": 0.45,
+     "ceiling_over_proj": 9.8
+    },
+    {
+     "name": "Drake Maye",
+     "pos": "QB",
+     "sleeper_proj": 19.7,
+     "proj": 19.6,
+     "floor_p10": 10.6,
+     "ceiling_p90": 28.8,
+     "p_win_if_bust": 0.451,
+     "p_win_if_boom": 0.687,
+     "swing": 0.236,
+     "p_dud_under_5": 0.0,
+     "p_bust": 0.118,
+     "p_neither": 0.78,
+     "p_boom": 0.103,
+     "band": 0.45,
+     "ceiling_over_proj": 9.1
+    }
+   ],
+   "home_availability": [],
+   "home_injury_tax": 0.0,
+   "home_record": "0-0",
+   "away_key_players": [
+    {
+     "name": "Josh Allen",
+     "pos": "QB",
+     "sleeper_proj": 18.8,
+     "proj": 18.8,
+     "floor_p10": 9.7,
+     "ceiling_p90": 28.6,
+     "p_win_if_bust": 0.278,
+     "p_win_if_boom": 0.605,
+     "swing": 0.327,
+     "p_dud_under_5": 0.039,
+     "p_bust": 0.112,
+     "p_neither": 0.764,
+     "p_boom": 0.123,
+     "band": 0.45,
+     "ceiling_over_proj": 9.8
+    },
+    {
+     "name": "Jahmyr Gibbs",
+     "pos": "RB",
+     "sleeper_proj": 22.1,
+     "proj": 22.1,
+     "floor_p10": 9.8,
+     "ceiling_p90": 35.7,
+     "p_win_if_bust": 0.284,
+     "p_win_if_boom": 0.61,
+     "swing": 0.326,
+     "p_dud_under_5": 0.019,
+     "p_bust": 0.161,
+     "p_neither": 0.681,
+     "p_boom": 0.158,
+     "band": 0.45,
+     "ceiling_over_proj": 13.6
+    },
+    {
+     "name": "DJ Moore",
+     "pos": "WR",
+     "sleeper_proj": 11.2,
+     "proj": 11.1,
+     "floor_p10": 3.4,
+     "ceiling_p90": 19.6,
+     "p_win_if_bust": 0.294,
+     "p_win_if_boom": 0.605,
+     "swing": 0.311,
+     "p_dud_under_5": 0.185,
+     "p_bust": 0.248,
+     "p_neither": 0.536,
+     "p_boom": 0.216,
+     "band": 0.45,
+     "ceiling_over_proj": 8.4
+    }
+   ],
+   "away_availability": [],
+   "away_injury_tax": 0.0,
+   "away_record": "0-0"
+  },
+  {
+   "home_roster_id": 8,
+   "away_roster_id": 9,
+   "home": "Montgomery Bus Boycott",
+   "away": "Alleged",
+   "home_win_prob": 0.3808,
+   "home_mean": 111.9,
+   "away_mean": 121.4,
+   "home_range_80": [
+    85.0,
+    140.0
+   ],
+   "away_range_80": [
+    92.8,
+    151.6
+   ],
+   "median_margin": -9.6,
+   "p_blowout_30": 0.355,
+   "p_nailbiter_5": 0.122,
+   "home_win_prob_healthy": 0.4817,
+   "bands": {
+    "home": {
+     "floor": {
+      "score": 85.0,
+      "win_odds": 0.046
+     },
+     "expected": {
+      "score": 111.2,
+      "win_odds": 0.341
+     },
+     "ceiling": {
+      "score": 140.0,
+      "win_odds": 0.795
+     }
+    },
+    "away": {
+     "floor": {
+      "score": 92.8,
+      "win_odds": 0.188
+     },
+     "expected": {
+      "score": 120.4,
+      "win_odds": 0.666
+     },
+     "ceiling": {
+      "score": 151.6,
+      "win_odds": 0.961
+     }
+    }
+   },
+   "home_key_players": [
+    {
+     "name": "Puka Nacua",
+     "pos": "WR",
+     "sleeper_proj": 21.0,
+     "proj": 20.9,
+     "floor_p10": 7.9,
+     "ceiling_p90": 35.7,
+     "p_win_if_bust": 0.221,
+     "p_win_if_boom": 0.576,
+     "swing": 0.355,
+     "p_dud_under_5": 0.046,
+     "p_bust": 0.21,
+     "p_neither": 0.599,
+     "p_boom": 0.191,
+     "band": 0.45,
+     "ceiling_over_proj": 14.7
+    },
+    {
+     "name": "Vikings",
+     "pos": "DEF",
+     "sleeper_proj": 5.6,
+     "proj": 6.0,
+     "floor_p10": -3.0,
+     "ceiling_p90": 16.5,
+     "p_win_if_bust": 0.287,
+     "p_win_if_boom": 0.518,
+     "swing": 0.231,
+     "p_dud_under_5": 0.533,
+     "p_bust": 0.41,
+     "p_neither": 0.272,
+     "p_boom": 0.318,
+     "band": 0.45
+    },
+    {
+     "name": "David Montgomery",
+     "pos": "RB",
+     "sleeper_proj": 15.3,
+     "proj": 15.3,
+     "floor_p10": 6.8,
+     "ceiling_p90": 24.8,
+     "p_win_if_bust": 0.279,
+     "p_win_if_boom": 0.499,
+     "swing": 0.22,
+     "p_dud_under_5": 0.039,
+     "p_bust": 0.161,
+     "p_neither": 0.682,
+     "p_boom": 0.158,
+     "band": 0.45,
+     "ceiling_over_proj": 9.5
+    }
+   ],
+   "home_availability": [
+    {
+     "player": "A.J. Brown",
+     "pos": "WR",
+     "slot": "WR",
+     "designation": "Out",
+     "practice": null,
+     "p_play": 0.001,
+     "rate_fitted": true,
+     "rate_n": 1068,
+     "source": "sleeper",
+     "note": "",
+     "proj_if_plays": 16.9,
+     "replacement": "Jordan Addison",
+     "replacement_proj": 11.4,
+     "dropoff": 5.4
+    },
+    {
+     "player": "Jeremiyah Love",
+     "pos": "RB",
+     "slot": "RB",
+     "designation": "Questionable",
+     "practice": null,
+     "p_play": 0.63,
+     "rate_fitted": true,
+     "rate_n": 1312,
+     "source": "sleeper",
+     "note": "",
+     "proj_if_plays": 11.4,
+     "replacement": "Chris Rodriguez",
+     "replacement_proj": 6.3,
+     "dropoff": 5.2
+    }
+   ],
+   "home_injury_tax": -8.1,
+   "home_record": "0-0",
+   "away_key_players": [
+    {
+     "name": "Jaxon Smith-Njigba",
+     "pos": "WR",
+     "sleeper_proj": 19.7,
+     "proj": 19.6,
+     "floor_p10": 7.4,
+     "ceiling_p90": 33.4,
+     "p_win_if_bust": 0.466,
+     "p_win_if_boom": 0.778,
+     "swing": 0.312,
+     "p_dud_under_5": 0.047,
+     "p_bust": 0.21,
+     "p_neither": 0.601,
+     "p_boom": 0.19,
+     "band": 0.45,
+     "ceiling_over_proj": 13.7
+    },
+    {
+     "name": "Chris Olave",
+     "pos": "WR",
+     "sleeper_proj": 16.1,
+     "proj": 16.0,
+     "floor_p10": 6.0,
+     "ceiling_p90": 27.4,
+     "p_win_if_bust": 0.495,
+     "p_win_if_boom": 0.751,
+     "swing": 0.256,
+     "p_dud_under_5": 0.074,
+     "p_bust": 0.21,
+     "p_neither": 0.601,
+     "p_boom": 0.189,
+     "band": 0.45,
+     "ceiling_over_proj": 11.3
+    },
+    {
+     "name": "Seahawks",
+     "pos": "DEF",
+     "sleeper_proj": 6.2,
+     "proj": 6.8,
+     "floor_p10": -3.0,
+     "ceiling_p90": 18.4,
+     "p_win_if_bust": 0.515,
+     "p_win_if_boom": 0.759,
+     "swing": 0.244,
+     "p_dud_under_5": 0.503,
+     "p_bust": 0.405,
+     "p_neither": 0.273,
+     "p_boom": 0.321,
+     "band": 0.45
+    }
+   ],
+   "away_availability": [],
+   "away_injury_tax": 0.0,
+   "away_record": "0-0"
+  }
+ ],
+ "tier_reference": [
+  {
+   "pool": "QB|0",
+   "pos": "QB",
+   "tier": 1,
+   "of_tiers": 5,
+   "ppg_range": [
+    19.2,
+    25.6
+   ],
+   "n_players": 24,
+   "n_weeks": 367,
+   "floor_p10": 11.62,
+   "avg": 21.45,
+   "ceiling_p90": 31.41,
+   "cv": 0.348,
+   "p_under_half": 0.079
+  },
+  {
+   "pool": "QB|1",
+   "pos": "QB",
+   "tier": 2,
+   "of_tiers": 5,
+   "ppg_range": [
+    17.3,
+    19.1
+   ],
+   "n_players": 24,
+   "n_weeks": 337,
+   "floor_p10": 9.52,
+   "avg": 18.23,
+   "ceiling_p90": 27.44,
+   "cv": 0.383,
+   "p_under_half": 0.095
+  },
+  {
+   "pool": "QB|2",
+   "pos": "QB",
+   "tier": 3,
+   "of_tiers": 5,
+   "ppg_range": [
+    15.1,
+    17.1
+   ],
+   "n_players": 24,
+   "n_weeks": 300,
+   "floor_p10": 8.5,
+   "avg": 16.33,
+   "ceiling_p90": 24.96,
+   "cv": 0.396,
+   "p_under_half": 0.093
+  },
+  {
+   "pool": "QB|3",
+   "pos": "QB",
+   "tier": 4,
+   "of_tiers": 5,
+   "ppg_range": [
+    12.6,
+    15.0
+   ],
+   "n_players": 24,
+   "n_weeks": 287,
+   "floor_p10": 4.76,
+   "avg": 13.63,
+   "ceiling_p90": 23.64,
+   "cv": 0.54,
+   "p_under_half": 0.185
+  },
+  {
+   "pool": "QB|4",
+   "pos": "QB",
+   "tier": 5,
+   "of_tiers": 5,
+   "ppg_range": [
+    3.6,
+    12.4
+   ],
+   "n_players": 27,
+   "n_weeks": 247,
+   "floor_p10": 1.24,
+   "avg": 10.4,
+   "ceiling_p90": 19.63,
+   "cv": 0.65,
+   "p_under_half": 0.223
+  },
+  {
+   "pool": "RB|0",
+   "pos": "RB",
+   "tier": 1,
+   "of_tiers": 5,
+   "ppg_range": [
+    14.7,
+    24.5
+   ],
+   "n_players": 49,
+   "n_weeks": 726,
+   "floor_p10": 7.85,
+   "avg": 17.68,
+   "ceiling_p90": 28.49,
+   "cv": 0.458,
+   "p_under_half": 0.128
+  },
+  {
+   "pool": "RB|1",
+   "pos": "RB",
+   "tier": 2,
+   "of_tiers": 5,
+   "ppg_range": [
+    10.3,
+    14.5
+   ],
+   "n_players": 49,
+   "n_weeks": 733,
+   "floor_p10": 4.56,
+   "avg": 12.45,
+   "ceiling_p90": 21.79,
+   "cv": 0.555,
+   "p_under_half": 0.196
+  },
+  {
+   "pool": "RB|2",
+   "pos": "RB",
+   "tier": 3,
+   "of_tiers": 5,
+   "ppg_range": [
+    6.7,
+    10.3
+   ],
+   "n_players": 49,
+   "n_weeks": 670,
+   "floor_p10": 1.93,
+   "avg": 8.49,
+   "ceiling_p90": 16.83,
+   "cv": 0.709,
+   "p_under_half": 0.263
+  },
+  {
+   "pool": "RB|3",
+   "pos": "RB",
+   "tier": 4,
+   "of_tiers": 5,
+   "ppg_range": [
+    4.8,
+    6.7
+   ],
+   "n_players": 49,
+   "n_weeks": 610,
+   "floor_p10": 0.82,
+   "avg": 5.77,
+   "ceiling_p90": 12.88,
+   "cv": 0.856,
+   "p_under_half": 0.357
+  },
+  {
+   "pool": "RB|4",
+   "pos": "RB",
+   "tier": 5,
+   "of_tiers": 5,
+   "ppg_range": [
+    3.0,
+    4.8
+   ],
+   "n_players": 52,
+   "n_weeks": 556,
+   "floor_p10": 0.38,
+   "avg": 3.83,
+   "ceiling_p90": 9.17,
+   "cv": 0.944,
+   "p_under_half": 0.354
+  },
+  {
+   "pool": "TE|0",
+   "pos": "TE",
+   "tier": 1,
+   "of_tiers": 5,
+   "ppg_range": [
+    10.4,
+    18.6
+   ],
+   "n_players": 42,
+   "n_weeks": 582,
+   "floor_p10": 4.51,
+   "avg": 12.65,
+   "ceiling_p90": 22.11,
+   "cv": 0.552,
+   "p_under_half": 0.187
+  },
+  {
+   "pool": "TE|1",
+   "pos": "TE",
+   "tier": 2,
+   "of_tiers": 5,
+   "ppg_range": [
+    7.5,
+    10.2
+   ],
+   "n_players": 42,
+   "n_weeks": 583,
+   "floor_p10": 2.25,
+   "avg": 8.67,
+   "ceiling_p90": 15.97,
+   "cv": 0.648,
+   "p_under_half": 0.249
+  },
+  {
+   "pool": "TE|2",
+   "pos": "TE",
+   "tier": 3,
+   "of_tiers": 5,
+   "ppg_range": [
+    5.4,
+    7.4
+   ],
+   "n_players": 42,
+   "n_weeks": 489,
+   "floor_p10": 1.94,
+   "avg": 6.43,
+   "ceiling_p90": 12.46,
+   "cv": 0.638,
+   "p_under_half": 0.262
+  },
+  {
+   "pool": "TE|3",
+   "pos": "TE",
+   "tier": 4,
+   "of_tiers": 5,
+   "ppg_range": [
+    4.1,
+    5.4
+   ],
+   "n_players": 42,
+   "n_weeks": 434,
+   "floor_p10": 1.39,
+   "avg": 4.67,
+   "ceiling_p90": 8.84,
+   "cv": 0.722,
+   "p_under_half": 0.325
+  },
+  {
+   "pool": "TE|4",
+   "pos": "TE",
+   "tier": 5,
+   "of_tiers": 5,
+   "ppg_range": [
+    3.0,
+    4.1
+   ],
+   "n_players": 42,
+   "n_weeks": 376,
+   "floor_p10": 1.35,
+   "avg": 3.5,
+   "ceiling_p90": 6.84,
+   "cv": 0.71,
+   "p_under_half": 0.277
+  },
+  {
+   "pool": "WR|0",
+   "pos": "WR",
+   "tier": 1,
+   "of_tiers": 5,
+   "ppg_range": [
+    13.2,
+    23.7
+   ],
+   "n_players": 81,
+   "n_weeks": 1143,
+   "floor_p10": 6.32,
+   "avg": 16.55,
+   "ceiling_p90": 28.15,
+   "cv": 0.519,
+   "p_under_half": 0.18
+  },
+  {
+   "pool": "WR|1",
+   "pos": "WR",
+   "tier": 2,
+   "of_tiers": 5,
+   "ppg_range": [
+    9.5,
+    13.2
+   ],
+   "n_players": 81,
+   "n_weeks": 1135,
+   "floor_p10": 3.55,
+   "avg": 11.56,
+   "ceiling_p90": 20.43,
+   "cv": 0.579,
+   "p_under_half": 0.213
+  },
+  {
+   "pool": "WR|2",
+   "pos": "WR",
+   "tier": 3,
+   "of_tiers": 5,
+   "ppg_range": [
+    6.9,
+    9.5
+   ],
+   "n_players": 81,
+   "n_weeks": 1045,
+   "floor_p10": 2.34,
+   "avg": 8.29,
+   "ceiling_p90": 15.89,
+   "cv": 0.665,
+   "p_under_half": 0.261
+  },
+  {
+   "pool": "WR|3",
+   "pos": "WR",
+   "tier": 4,
+   "of_tiers": 5,
+   "ppg_range": [
+    5.2,
+    6.9
+   ],
+   "n_players": 81,
+   "n_weeks": 912,
+   "floor_p10": 1.55,
+   "avg": 5.97,
+   "ceiling_p90": 12.06,
+   "cv": 0.761,
+   "p_under_half": 0.296
+  },
+  {
+   "pool": "WR|4",
+   "pos": "WR",
+   "tier": 5,
+   "of_tiers": 5,
+   "ppg_range": [
+    3.0,
+    5.2
+   ],
+   "n_players": 84,
+   "n_weeks": 815,
+   "floor_p10": 1.31,
+   "avg": 4.18,
+   "ceiling_p90": 8.67,
+   "cv": 0.757,
+   "p_under_half": 0.298
+  }
+ ],
+ "league_notes": {
+  "highest_ceiling": "Soudry",
+  "highest_floor": "Soudry",
+  "most_volatile": "Alleged",
+  "closest_matchup": {
+   "home_roster_id": 3,
+   "away_roster_id": 12,
+   "home": "Chase Brown v. BOE",
+   "away": "Likely Tuten my Reichard",
+   "home_win_prob": 0.502,
+   "home_mean": 115.5,
+   "away_mean": 115.4,
+   "home_range_80": [
+    89.2,
+    142.9
+   ],
+   "away_range_80": [
+    87.7,
+    143.9
+   ],
+   "median_margin": 0.2,
+   "p_blowout_30": 0.314,
+   "p_nailbiter_5": 0.131,
+   "home_win_prob_healthy": 0.5092,
+   "bands": {
+    "home": {
+     "floor": {
+      "score": 89.2,
+      "win_odds": 0.115
+     },
+     "expected": {
+      "score": 114.9,
+      "win_odds": 0.505
+     },
+     "ceiling": {
+      "score": 142.9,
+      "win_odds": 0.893
+     }
+    },
+    "away": {
+     "floor": {
+      "score": 87.7,
+      "win_odds": 0.086
+     },
+     "expected": {
+      "score": 114.6,
+      "win_odds": 0.495
+     },
+     "ceiling": {
+      "score": 143.9,
+      "win_odds": 0.908
+     }
+    }
+   },
+   "home_key_players": [
+    {
+     "name": "Chase Brown",
+     "pos": "RB",
+     "sleeper_proj": 17.1,
+     "proj": 17.1,
+     "floor_p10": 7.6,
+     "ceiling_p90": 27.6,
+     "p_win_if_bust": 0.379,
+     "p_win_if_boom": 0.65,
+     "swing": 0.271,
+     "p_dud_under_5": 0.031,
+     "p_bust": 0.164,
+     "p_neither": 0.677,
+     "p_boom": 0.158,
+     "band": 0.45,
+     "ceiling_over_proj": 10.5
+    },
+    {
+     "name": "Raiders",
+     "pos": "DEF",
+     "sleeper_proj": 7.8,
+     "proj": 7.9,
+     "floor_p10": -0.9,
+     "ceiling_p90": 18.8,
+     "p_win_if_bust": 0.389,
+     "p_win_if_boom": 0.654,
+     "swing": 0.264,
+     "p_dud_under_5": 0.421,
+     "p_bust": 0.382,
+     "p_neither": 0.341,
+     "p_boom": 0.276,
+     "band": 0.45
+    },
+    {
+     "name": "Zay Flowers",
+     "pos": "WR",
+     "sleeper_proj": 15.6,
+     "proj": 15.6,
+     "floor_p10": 6.0,
+     "ceiling_p90": 26.6,
+     "p_win_if_bust": 0.379,
+     "p_win_if_boom": 0.64,
+     "swing": 0.261,
+     "p_dud_under_5": 0.069,
+     "p_bust": 0.206,
+     "p_neither": 0.601,
+     "p_boom": 0.193,
+     "band": 0.45,
+     "ceiling_over_proj": 11.0
+    }
+   ],
+   "home_availability": [],
+   "home_injury_tax": -0.5,
+   "home_record": "0-0",
+   "away_key_players": [
+    {
+     "name": "Nico Collins",
+     "pos": "WR",
+     "sleeper_proj": 16.4,
+     "proj": 16.5,
+     "floor_p10": 6.3,
+     "ceiling_p90": 28.0,
+     "p_win_if_bust": 0.366,
+     "p_win_if_boom": 0.657,
+     "swing": 0.291,
+     "p_dud_under_5": 0.063,
+     "p_bust": 0.207,
+     "p_neither": 0.601,
+     "p_boom": 0.192,
+     "band": 0.45,
+     "ceiling_over_proj": 11.6
+    },
+    {
+     "name": "Jonathan Taylor",
+     "pos": "RB",
+     "sleeper_proj": 18.8,
+     "proj": 18.9,
+     "floor_p10": 8.4,
+     "ceiling_p90": 30.5,
+     "p_win_if_bust": 0.368,
+     "p_win_if_boom": 0.652,
+     "swing": 0.285,
+     "p_dud_under_5": 0.023,
+     "p_bust": 0.159,
+     "p_neither": 0.681,
+     "p_boom": 0.16,
+     "band": 0.45,
+     "ceiling_over_proj": 11.7
+    },
+    {
+     "name": "Travis Etienne",
+     "pos": "RB",
+     "sleeper_proj": 14.5,
+     "proj": 14.5,
+     "floor_p10": 5.3,
+     "ceiling_p90": 25.3,
+     "p_win_if_bust": 0.375,
+     "p_win_if_boom": 0.645,
+     "swing": 0.27,
+     "p_dud_under_5": 0.087,
+     "p_bust": 0.212,
+     "p_neither": 0.585,
+     "p_boom": 0.203,
+     "band": 0.45,
+     "ceiling_over_proj": 10.8
+    }
+   ],
+   "away_availability": [],
+   "away_injury_tax": 0.0,
+   "away_record": "0-0"
+  },
+  "no_cover": []
+ }
+}

@@ -1,0 +1,9 @@
+# Single source of truth for the run. run.py reads this.
+league_id: "1399633932319752192"
+
+sources:
+  use_espn: true          # injuries adapter; fails soft, check method.injury_sources
+  matchup_detail: minimal # "full" adds positional edges, paths to victory, magic numbers
+
+simulation:
+  n_sims: 25000           # seed is derived from league|season|week, never random

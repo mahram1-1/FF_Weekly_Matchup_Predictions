@@ -1,0 +1,33 @@
+name: weekly report
+
+# Runs entirely on free public data (Sleeper + nflverse). No API key, no spend.
+# The deterministic markdown documents are the deliverable. For the prose
+# versions, paste out/facts_wkNN_brief.json into a Claude chat -- see
+# WEEKLY_PROMPT.md, "Free path".
+
+on:
+  schedule:
+    - cron: "0 13 * * 2"    # Tue 09:00 ET — post-waivers
+    - cron: "30 16 * * 0"   # Sun 12:30 ET — after inactives are final
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  report:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install -r requirements.txt
+      - run: python3 run.py
+      - name: commit snapshot and reports
+        run: |
+          git config user.name  "gleague-bot"
+          git config user.email "actions@github.com"
+          git add snapshots out
+          git diff --staged --quiet || git commit -m "week $(date +%V) auto"
+          git push

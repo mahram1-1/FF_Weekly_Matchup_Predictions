@@ -1,0 +1,20 @@
+{
+ "captured_at": "2026-09-11T00:15:29+00:00",
+ "season": "2026",
+ "week": 1,
+ "provenance": {
+  "projections": "sleeper/rotowire",
+  "injuries": {
+   "sleeper": 14,
+   "nflverse_official": 1
+  },
+  "priors": "2025 actuals",
+  "seed": 3159238176
+ },
+ "files": {
+  "projections": 6621,
+  "opponents": 47583,
+  "injuries": 26117,
+  "rankings": 102
+ }
+}
