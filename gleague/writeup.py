@@ -131,6 +131,60 @@ def _matchup_slice(f: dict) -> dict:
             if k in f}
 
 
+# ------------------------------------------------------------ share text
+def render_chat(f: dict, repo_url: str = "") -> str:
+    """Plain text sized for a league chat.
+
+    The markdown documents are for reading on GitHub, where tables render. Pasted
+    into Sleeper, GroupMe or iMessage they become pipe-delimited noise, and 21,000
+    characters is far past what anyone scrolls. This is the same numbers in about
+    2,000 characters with no markup at all.
+    """
+    L, out = f["league"], []
+    tb = {t["roster_id"]: t for t in f["teams"]}
+
+    out.append(f"{L['name'].upper()} — WEEK {L['week']}")
+    out.append(f"{f['method']['n_sims']:,} simulated weeks, league scoring")
+    out.append("")
+    out.append("POWER RANKINGS")
+    for r in f["power_rankings"]["table"]:
+        t = tb[r["roster_id"]]; s_ = t["sim"]
+        mv = r.get("move")
+        arrow = "" if mv in (None, 0) else (f" (+{mv})" if mv > 0 else f" ({mv})")
+        out.append(f"{r['rank']:>2}. {t['team']} {t['record']}{arrow} — "
+                   f"{s_['mean']:.0f} proj, {s_['floor_p10']:.0f}-{s_['ceiling_p90']:.0f}")
+
+    out.append("")
+    out.append("MATCHUPS")
+    for g in f["matchups"]:
+        hp = g["home_win_prob"]
+        tag = " — coin flip" if abs(hp - 0.5) < 0.04 else ""
+        out.append(f"{g['home']} {g['home_mean']:.0f} vs {g['away']} "
+                   f"{g['away_mean']:.0f} — {hp:.0%}/{1 - hp:.0%}{tag}")
+
+    lev = f["league_notes"].get("top_leverage") or []
+    if lev:
+        out.append("")
+        out.append("WHO DECIDES THE WEEK")
+        for r in lev[:5]:
+            out.append(f"{r['name']} ({r['pos']}, {r['team']}) — "
+                       f"{r['floor_p10']:.0f}-{r['ceiling_p90']:.0f} range, "
+                       f"swings their odds {r['swing']:+.0%}")
+
+    ro = [a for t in f["teams"] for a in t.get("availability", [])
+          if a["p_play"] < 0.9 and a["dropoff"] >= 4]
+    if ro:
+        out.append("")
+        out.append("INJURY WATCH")
+        for a in sorted(ro, key=lambda x: -x["dropoff"])[:5]:
+            out.append(f"{a['player']} — {a['designation']}, {a['p_play']:.0%} to play")
+
+    if repo_url:
+        out.append("")
+        out.append(f"Full breakdown: {repo_url}")
+    return "\n".join(out)
+
+
 # ------------------------------------------------------------ document 1
 def _read(t, f):
     """Deterministic pundit lines. Every clause is backed by a number in the packet."""
