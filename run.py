@@ -56,7 +56,9 @@ def main():
         json.dumps(writeup.brief(f), indent=1, default=str))
 
     docs = {f"power_wk{week:02d}.md": writeup.render_power_rankings(f),
-            f"matchups_wk{week:02d}.md": writeup.render_matchups(f)}
+            f"matchups_wk{week:02d}.md": writeup.render_matchups(f),
+            f"share_wk{week:02d}.txt": writeup.render_chat(
+                f, str(cfg.get("repo_url") or ""))}
     for name, body in docs.items():
         (out / name).write_text(body)
         print(f"  -> out/{name}")
