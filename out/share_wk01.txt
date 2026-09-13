@@ -2,36 +2,36 @@ GLENN’S GLEAGUE 2.0 — WEEK 1
 25,000 simulated weeks, league scoring
 
 POWER RANKINGS
- 1. Alleged 0-0 — 121 proj, 92-151
- 2. Soudry 0-0 — 121 proj, 94-150
- 3. HYPE BEASTS 0-0 — 120 proj, 92-150
- 4. Evo Mega Knight 0-0 — 117 proj, 89-146
- 5. Mayebe shit 0-0 — 117 proj, 91-143
- 6. Nastey Mastey 0-0 — 117 proj, 90-144
- 7. samlewittes 0-0 — 118 proj, 90-146
- 8. Mike HubbaChuba 0-0 — 117 proj, 89-145
- 9. Chase Brown v. BOE 0-0 — 115 proj, 89-142
-10. Likely Tuten my Reichard 0-0 — 116 proj, 88-144
-11. Montgomery Bus Boycott 0-0 — 112 proj, 85-140
-12. Allentown 0-0 — 111 proj, 84-138
+ 1. Alleged 0-0 — 121 proj, 93-151
+ 2. Soudry 0-0 — 122 proj, 94-151
+ 3. HYPE BEASTS 0-0 — 121 proj, 93-150
+ 4. Likely Tuten my Reichard 0-0 — 119 proj, 91-147
+ 5. Evo Mega Knight 0-0 — 116 proj, 88-145
+ 6. Mayebe shit 0-0 — 116 proj, 90-142
+ 7. Mike HubbaChuba 0-0 — 118 proj, 91-147
+ 8. Chase Brown v. BOE 0-0 — 116 proj, 90-144
+ 9. samlewittes 0-0 — 116 proj, 88-144
+10. Nastey Mastey 0-0 — 114 proj, 88-141
+11. Allentown 0-0 — 112 proj, 85-139
+12. Montgomery Bus Boycott 0-0 — 111 proj, 84-138
 
 MATCHUPS
-Chase Brown v. BOE 115 vs Likely Tuten my Reichard 116 — 50%/50% — coin flip
-Mike HubbaChuba 117 vs Nastey Mastey 117 — 49%/51% — coin flip
-Evo Mega Knight 117 vs HYPE BEASTS 120 — 46%/54%
-samlewittes 118 vs Soudry 121 — 45%/55%
-Mayebe shit 117 vs Allentown 111 — 59%/41%
-Montgomery Bus Boycott 112 vs Alleged 121 — 39%/61%
+Chase Brown v. BOE 116 vs Likely Tuten my Reichard 119 — 47%/53% — coin flip
+Mike HubbaChuba 118 vs Nastey Mastey 114 — 55%/45%
+Evo Mega Knight 116 vs HYPE BEASTS 121 — 44%/56%
+Mayebe shit 116 vs Allentown 112 — 56%/44%
+samlewittes 116 vs Soudry 122 — 42%/58%
+Montgomery Bus Boycott 111 vs Alleged 121 — 36%/64%
 
 WHO DECIDES THE WEEK
 Ja'Marr Chase (WR, HYPE BEASTS) — 8-35 range, swings their odds +36%
-Tee Higgins (WR, Soudry) — 6-27 range, swings their odds +36%
-Puka Nacua (WR, Montgomery Bus Boycott) — 8-36 range, swings their odds +36%
+Puka Nacua (WR, Montgomery Bus Boycott) — 8-36 range, swings their odds +35%
+Tee Higgins (WR, Soudry) — 6-27 range, swings their odds +33%
+Josh Allen (QB, Allentown) — 10-28 range, swings their odds +32%
 Jahmyr Gibbs (RB, Allentown) — 10-36 range, swings their odds +32%
-Joe Burrow (QB, Soudry) — 12-31 range, swings their odds +32%
 
 INJURY WATCH
-A.J. Brown — Out, 0% to play
-Jeremiyah Love — Questionable, 63% to play
+A.J. Brown — IR, 0% to play
+Jeremiyah Love — Questionable, 50% to play
 
 Full breakdown: https://github.com/mahram1-1/FF_Weekly_Matchup_Predictions
