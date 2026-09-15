@@ -1,0 +1,33 @@
+GLENN’S GLEAGUE 2.0 — WEEK 2
+25,000 simulated weeks, league scoring
+
+POWER RANKINGS
+ 1. Allentown 1-0 (+10) — 121 proj, 92-151
+ 2. Alleged 1-0 (-1) — 114 proj, 87-142
+ 3. samlewittes 1-0 (+6) — 117 proj, 92-144
+ 4. Mike HubbaChuba 1-0 (+3) — 115 proj, 87-144
+ 5. Evo Mega Knight 1-0 — 116 proj, 88-146
+ 6. Soudry 0-1 (-4) — 117 proj, 89-147
+ 7. HYPE BEASTS 0-1 (-4) — 116 proj, 90-144
+ 8. Montgomery Bus Boycott 0-1 (+4) — 113 proj, 87-140
+ 9. Mayebe shit 0-1 (-3) — 114 proj, 88-141
+10. Likely Tuten my Reichard 1-0 (-6) — 100 proj, 75-126
+11. Nastey Mastey 0-1 (-1) — 111 proj, 85-138
+12. Chasing 0-12 0-1 (-4) — 102 proj, 80-126
+
+MATCHUPS
+Evo Mega Knight 116 vs Alleged 114 — 53%/47% — coin flip
+Mayebe shit 114 vs samlewittes 117 — 45%/55%
+Montgomery Bus Boycott 113 vs Soudry 117 — 44%/56%
+HYPE BEASTS 116 vs Allentown 121 — 44%/56%
+Chasing 0-12 102 vs Nastey Mastey 111 — 38%/62%
+Mike HubbaChuba 115 vs Likely Tuten my Reichard 100 — 69%/31%
+
+WHO DECIDES THE WEEK
+Jahmyr Gibbs (RB, Allentown) — 12-42 range, swings their odds +37%
+Puka Nacua (WR, Montgomery Bus Boycott) — 8-34 range, swings their odds +36%
+George Pickens (WR, Evo Mega Knight) — 6-28 range, swings their odds +34%
+Bijan Robinson (RB, Evo Mega Knight) — 10-36 range, swings their odds +34%
+Jaxon Smith-Njigba (WR, Alleged) — 7-33 range, swings their odds +34%
+
+Full breakdown: https://github.com/mahram1-1/FF_Weekly_Matchup_Predictions
