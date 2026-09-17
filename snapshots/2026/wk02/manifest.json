@@ -1,19 +1,19 @@
 {
- "captured_at": "2026-09-16T21:13:48+00:00",
+ "captured_at": "2026-09-17T03:26:39+00:00",
  "season": "2026",
  "week": 2,
  "provenance": {
   "projections": "sleeper/rotowire",
   "injuries": {
-   "sleeper": 20
+   "sleeper": 24
   },
   "priors": "2025 actuals",
   "seed": 2359869180
  },
  "files": {
-  "projections": 6866,
+  "projections": 6851,
   "opponents": 47602,
-  "injuries": 26340,
+  "injuries": 26483,
   "rankings": 102
  }
 }

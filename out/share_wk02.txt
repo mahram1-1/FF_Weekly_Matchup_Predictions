@@ -2,26 +2,26 @@ GLENN’S GLEAGUE 2.0 — WEEK 2
 25,000 simulated weeks, league scoring
 
 POWER RANKINGS
- 1. Allentown 1-0 (+10) — 121 proj, 92-152
- 2. samlewittes 1-0 (+7) — 122 proj, 94-151
- 3. Alleged 1-0 (-2) — 116 proj, 88-144
- 4. Mike HubbaChuba 1-0 (+3) — 115 proj, 88-143
- 5. Evo Mega Knight 1-0 — 116 proj, 88-145
- 6. Chasing 0-12 0-1 (+2) — 114 proj, 87-141
+ 1. Allentown 1-0 (+10) — 120 proj, 91-151
+ 2. Alleged 1-0 (-1) — 116 proj, 89-144
+ 3. samlewittes 1-0 (+6) — 118 proj, 91-147
+ 4. Mike HubbaChuba 1-0 (+3) — 114 proj, 87-142
+ 5. Evo Mega Knight 1-0 — 116 proj, 87-145
+ 6. Chasing 0-12 0-1 (+2) — 113 proj, 87-141
  7. Mayebe shit 0-1 (-1) — 114 proj, 88-142
  8. Montgomery Bus Boycott 0-1 (+4) — 113 proj, 87-140
  9. HYPE BEASTS 0-1 (-6) — 115 proj, 89-142
 10. Nastey Mastey 0-1 — 116 proj, 89-143
-11. Likely Tuten my Reichard 1-0 (-7) — 102 proj, 76-128
-12. Soudry 0-1 (-10) — 108 proj, 80-138
+11. Likely Tuten my Reichard 1-0 (-7) — 99 proj, 74-124
+12. Soudry 0-1 (-10) — 108 proj, 79-138
 
 MATCHUPS
-Evo Mega Knight 116 vs Alleged 116 — 51%/49% — coin flip
-Chasing 0-12 114 vs Nastey Mastey 116 — 47%/53% — coin flip
+Evo Mega Knight 116 vs Alleged 116 — 50%/50% — coin flip
+Chasing 0-12 113 vs Nastey Mastey 116 — 47%/53% — coin flip
+Mayebe shit 114 vs samlewittes 118 — 45%/55%
 Montgomery Bus Boycott 113 vs Soudry 108 — 56%/44%
-HYPE BEASTS 115 vs Allentown 121 — 42%/58%
-Mayebe shit 114 vs samlewittes 122 — 40%/60%
-Mike HubbaChuba 115 vs Likely Tuten my Reichard 102 — 68%/32%
+HYPE BEASTS 115 vs Allentown 120 — 43%/57%
+Mike HubbaChuba 114 vs Likely Tuten my Reichard 99 — 70%/30%
 
 WHO DECIDES THE WEEK
 Jahmyr Gibbs (RB, Allentown) — 12-42 range, swings their odds +40%
@@ -32,5 +32,7 @@ George Pickens (WR, Evo Mega Knight) — 6-28 range, swings their odds +33%
 
 INJURY WATCH
 Joe Burrow — Questionable, 63% to play
+Eddy Pineiro — Questionable, 63% to play
+Nico Collins — Questionable, 63% to play
 
 Full breakdown: https://github.com/mahram1-1/FF_Weekly_Matchup_Predictions
