@@ -7,7 +7,7 @@ Writes two documents:
 plus out/facts_wkNN.json, the audit trail both are built from.
 """
 import json, sys, pathlib
-from gleague import sleeper, facts, writeup
+from gleague import sleeper, facts, writeup, validate
 
 ROOT = pathlib.Path(__file__).parent
 
@@ -62,6 +62,28 @@ def main():
     for name, body in docs.items():
         (out / name).write_text(body)
         print(f"  -> out/{name}")
+
+    # agents 3 and 4: confirm both documents before anything gets sent
+    live = {}
+    try:
+        live = {r_["roster_id"]: set(r_.get("players") or [])
+                for r_ in sleeper.rosters(league)}
+    except Exception:
+        pass
+    reports = [
+        validate.check_power(f, docs[f"power_wk{week:02d}.md"], live),
+        validate.check_matchups(f, docs[f"matchups_wk{week:02d}.md"], live),
+    ]
+    (out / f"validation_wk{week:02d}.md").write_text(validate.render(reports))
+    print(f"  -> out/validation_wk{week:02d}.md")
+    for rep in reports:
+        flag = "FAILED" if rep["failed"] else "passed"
+        print(f"     {rep['document']}: {flag} "
+              f"({rep['failed']} fail, {rep['warned']} warn, "
+              f"{len(rep['checks'])} checks)")
+    if any(r_["failed"] for r_ in reports):
+        print("\n  *** One or more documents FAILED validation. Read "
+              f"out/validation_wk{week:02d}.md before sending anything. ***")
     print(f"  -> out/facts_wk{week:02d}.json")
     print(f"  -> out/facts_wk{week:02d}_brief.json  (paste this into a Claude chat)")
 

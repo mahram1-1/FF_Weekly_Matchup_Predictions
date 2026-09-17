@@ -75,11 +75,26 @@ def analyse(draft_id: str, ros_proj: dict, adp: dict, pos_of: dict,
 
 
 def commentary(team_picks: list[dict], starters: set, leverage: list[dict],
-               availability: list[dict], reach_cut=12, slide_cut=8) -> dict:
-    """Turn the numbers into the buckets a pundit column actually needs."""
+               availability: list[dict], rostered: set | None = None,
+               reach_cut=12, slide_cut=8) -> dict:
+    """Turn the numbers into the buckets a pundit column actually needs.
+
+    `rostered` is the team's CURRENT roster. Without it this function happily
+    roasts a player the manager cut two weeks ago, which makes the whole document
+    look like it is running on draft-day data even though the simulation is not.
+    Everyone who has left the roster is filtered out of the live buckets and
+    surfaced separately, because "drafted him in the 4th and already cut him" is
+    better material than pretending the pick never happened.
+    """
     SKILL = {"QB", "RB", "WR", "TE"}
     lev = {l["name"]: l for l in leverage}
     inj = {a["player"]: a for a in availability}
+
+    if rostered is not None:
+        gone = [p for p in team_picks if p["player_id"] not in rostered]
+        team_picks = [p for p in team_picks if p["player_id"] in rostered]
+    else:
+        gone = []
 
     # Watch prefers skill positions. A defence can genuinely swing a week, but
     # "players to watch: the Chargers" is not a sentence, and DEF/K leverage rows
@@ -149,5 +164,15 @@ def commentary(team_picks: list[dict], starters: set, leverage: list[dict],
     dislike = _uniq(dislike)[:2]
     reaches = _uniq(reaches)[:2]
     sliding = _uniq(sliding)[:2]
+
+    # drafted and already gone — earliest pick first, since round 3 stings more
+    cut = sorted([p for p in gone if p["round"] <= 10],
+                 key=lambda p: p["pick"])[:2]
+    # started this week but never drafted by this team: waiver claim or trade
+    added = [{"player": n, "pos": lev[n].get("pos"), "proj": lev[n].get("sleeper_proj")}
+             for n in (l["name"] for l in leverage)
+             if n not in {p["player"] for p in team_picks} and n in lev][:2]
+
     return {"watch": watch, "reaches": reaches, "sliding": sliding,
-            "dislike": dislike, "upside": upside, "risers": risers[:2]}
+            "dislike": dislike, "upside": upside, "risers": risers[:2],
+            "cut": cut, "added": added}

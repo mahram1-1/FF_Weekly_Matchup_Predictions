@@ -11,6 +11,33 @@ python3 run.py 4 --replay   # rebuild wk4 from its frozen snapshot
 python3 run.py 4 --claude   # add the LLM versions
 ```
 
+## Nothing here costs money
+
+| Component | Cost |
+|---|---|
+| GitHub Actions, public repo | free, unlimited minutes |
+| Sleeper API | free, no authentication |
+| nflverse data | free, public releases |
+| DynastyProcess crosswalk | free |
+| Python compute on the runner | free |
+| Claude API | **not used** — no key is set or needed |
+
+The only thing that consumes a paid allowance is talking to Claude in chat or
+Claude Code, which draws on a Pro subscription rather than the API.
+
+## Runs are manual only
+
+`.github/workflows/weekly.yml` has no `schedule:` and no `on: push`. It fires when
+you press **Run workflow** in the Actions tab and at no other time.
+
+That is deliberate beyond cost. A scheduled run overwrites the week's snapshot
+with whatever the data looked like at that moment, so an unattended Tuesday run
+would replace the Sunday inputs you actually sent the league. Manual triggering
+means the snapshot always matches the report you published.
+
+The trigger takes an optional **week** input. Leave it blank for the current NFL
+week, or type a number to rebuild a specific one.
+
 ## Cost
 
 **The pipeline is free.** Sleeper's API, nflverse data and the DynastyProcess
@@ -34,6 +61,74 @@ filesystem resets between chats, so the repo needs to arrive by git clone or
 upload — Project knowledge is injected as context, not written to disk, and can't
 be executed. Put this on GitHub if you can; `snapshots/` living in git history is
 what makes the ± column and `--replay` work.
+
+## Four agents
+
+| # | Agent | Where it lives | Output |
+|---|---|---|---|
+| 1 | Power rankings | `writeup.render_power_rankings` + `SYSTEM_POWER` | `power_wkNN.md` |
+| 2 | Matchup predictions | `writeup.render_matchups` + `SYSTEM_MATCHUPS` | `matchups_wkNN.md` |
+| 3 | Power rankings confirmer | `validate.check_power` + `SYSTEM_POWER_CHECK` | `validation_wkNN.md` |
+| 4 | Matchup confirmer | `validate.check_matchups` + `SYSTEM_MATCHUP_CHECK` | `validation_wkNN.md` |
+
+The confirmers run automatically on every execution. If either fails, `run.py`
+prints a warning and you should read the validation report before sending
+anything.
+
+Each agent has a deterministic core and an optional LLM layer. The deterministic
+half does the arithmetic and consistency checking, which code does reliably and a
+language model does not. The LLM prompts sit on top and catch what code cannot —
+prose that overstates a number, a claim that does not follow, a tonal
+contradiction.
+
+### Contradictions are prevented, not just detected
+
+The obvious way to build a pros-and-cons column is to run independent filters —
+high ceiling, high bust rate, injury risk, draft reach — and print whatever each
+returns. That reliably praises a player's ceiling four lines above a warning about
+his bust rate, because both are true and the filters never spoke to each other.
+
+`verdict.py` scores every player once on every signal, takes the strongest, and
+files him in exactly one bucket. Pros and cons cannot overlap. The confirmer then
+asserts disjointness rather than hoping for it.
+
+This caught a real bug the first time it ran: eight players — DJ Moore, Jameson
+Williams, Bo Nix, Travis Etienne and others — were appearing as both praise and
+criticism, because the older draft-commentary buckets were still live alongside
+the new classifier. Two classifiers disagreeing about the same player is exactly
+how this happens. The draft module's sentiment buckets are now dropped from the
+facts packet; only the roster *events* (cut, added) survive, and those carry no
+opinion.
+
+### What the confirmers check
+
+**Power rankings (11 checks):** all teams present and unique · rank order matches
+the rating column · movement arrows equal prev_rank − rank · floor < projection <
+ceiling · injury tax equals the gap between the two simulations · no team scores
+higher with injuries than without · all-play is a valid probability · no player
+praised and criticised · no dropped player discussed as current · prose figures
+trace to the packet.
+
+**Matchups (12 checks):** six matchups for twelve teams · every team exactly once
+· valid probabilities · the higher projection is always the favourite · floor <
+projection < ceiling · win odds rise monotonically from floor to ceiling · both
+sides' odds at their medians sum to 100% · bust + neither + boom = 100% per player
+· player floor ≤ ceiling · "coin flip" only inside 46–54% · no player is both a
+key player and an injury concern · every named player is on the roster he is
+credited to.
+
+## Three outputs
+
+| File | For | Where you read it |
+|---|---|---|
+| `out/share_wkNN.txt` | Pasting into the league chat | Copy the raw text |
+| `out/power_wkNN.md` | The full rankings writeup | GitHub renders it |
+| `out/matchups_wkNN.md` | The six previews | GitHub renders it |
+
+`share_wkNN.txt` exists because markdown tables become pipe-delimited noise in
+Sleeper, GroupMe or iMessage, and 21,000 characters is past what anyone scrolls.
+It is the same numbers in about 1,500 characters with no markup, and it ends with
+a link back to the repo for anyone who wants the detail.
 
 ## Two documents, one facts packet
 

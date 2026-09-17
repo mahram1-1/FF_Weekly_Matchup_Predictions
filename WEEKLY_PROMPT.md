@@ -1,20 +1,32 @@
 # Weekly prompt
 
-Paste one of these into a new chat in this Project. Pick the version that matches
-how the repo reaches the container.
+## Read this first: you probably do not need this file
 
-Why this matters: the container filesystem resets between chats. The code,
-`data/priors.json` and especially `snapshots/` do not carry over. Without prior
-snapshots the week-over-week ± column is blank and `--replay` cannot rebuild past
-weeks. Project knowledge is injected as context, not written to disk, so it
-cannot be run directly — the files have to arrive as a repo clone or an upload.
+**The weekly run happens in GitHub Actions, not in a Claude chat.**
+
+Repo → **Actions** → **run report** → **Run workflow** → leave the week box blank
+→ **Run workflow**. About a minute later, open `out/share_wkNN.txt`, click
+**Raw**, copy, paste into the league chat. Done.
+
+That path is free, touches no Claude usage allowance, and is the one to use every
+week. Run it Sunday late morning once lineups are locked and inactives are posted
+— a midweek run gives you stale lineups and almost no injury designations.
+
+The prompts below are for the three cases where a chat actually helps:
+
+| Situation | Use |
+|---|---|
+| You want the prose versions with jokes | "Free path" section below |
+| The Action failed and you want it diagnosed | Version A below |
+| You want to rebuild an old week | Version C below |
+
+Everything else is the button.
 
 ---
 
-## Version A — repo on GitHub (recommended)
+## Version A — diagnose a failed run
 
-Best option. `github.com` is reachable from the container, snapshots live in git
-history, and the audit trail survives.
+Use when the Actions run went red, or produced output that looks wrong.
 
 ```
 Run the weekly fantasy report for Glenn's Gleague 2.0.

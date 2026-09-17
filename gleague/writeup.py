@@ -33,12 +33,14 @@ FORMAT:
 - A section per team, in the order given by power_rankings.table, headed with rank,
   team name and record. You may argue with the ordering in prose but do NOT
   reorder. Under each, bullets drawn from that team's `pundit` object:
-    * Watch — from pundit.watch. Quote the swing and the neither share.
-    * Not buying — from pundit.dislike. The stated reason is in the `why` field.
-    * Reached — from pundit.reaches. Pick number vs ADP is the joke.
-    * Falling — from pundit.sliding. Positional rank on draft day vs now.
-    * Upside — from pundit.upside. Ceiling above projection, in points.
-    * The read — one line of your own, but only about numbers present in the packet.
+    * Pros — from team_notes.pros plus every player in `verdicts` whose verdict
+      is "pro". Use the supplied `reason` verbatim in substance.
+    * Cons — from team_notes.cons plus every player whose verdict is "con".
+    * Decides their week — the top leverage player and his swing.
+  A player appears in `verdicts` exactly once. NEVER move a player from one list
+  to the other or mention him in both — the classifier already resolved which
+  signal about him is strongest, and second-guessing it produces a document that
+  praises and buries the same guy.
 - One-line sign-off.
 NEVER give start/sit or roster advice. No "they should bench X", no "Y is a better
 play". Describe what the simulation found, not what a manager ought to do.
@@ -87,7 +89,60 @@ def _call(system: str, facts: dict, model="claude-sonnet-4-6") -> str:
         return "".join(b.get("text", "") for b in json.load(r).get("content", []))
 
 
+SYSTEM_POWER_CHECK = """You are reviewing a fantasy football power rankings \
+document against the facts packet it was generated from. You are not rewriting it. \
+You are looking for reasons not to send it.
+
+Report ONLY problems, as a short list. If there are none, say so in one line.
+
+Check, in this order:
+1. CONTRADICTIONS. Is any player praised in one place and criticised in another —
+   in the same team's section or across two teams? Quote both lines.
+2. UNSUPPORTED NUMBERS. Does any figure in the prose fail to appear in the facts
+   packet? Name it.
+3. CLAIMS THAT DO NOT FOLLOW. "Highest ceiling in the league" when another team's
+   ceiling is higher. "Carrying the heaviest injury load" when the tax is 0.0.
+   A team called volatile whose sd is mid-pack.
+4. OVERSTATEMENT. Simulated frequencies reported as predictions. A 63% favourite
+   described as a lock. A boom/bust split implying a player is a coin flip when
+   'neither' is the majority outcome.
+5. ROSTER STALENESS. Any player discussed as current who is not on that roster.
+6. RANKING LOGIC. Does the ordering follow the rating column? Does any movement
+   arrow disagree with the stated previous rank?
+
+Do not comment on style, tone or jokes. Do not suggest rewrites. End with a single
+line: SEND or DO NOT SEND, and if the latter, the one problem that decides it."""
+
+SYSTEM_MATCHUP_CHECK = """You are reviewing fantasy football matchup previews \
+against the facts packet they were generated from. You are not rewriting them. You \
+are looking for reasons not to send.
+
+Report ONLY problems, as a short list. If there are none, say so in one line.
+
+Check, in this order:
+1. CONTRADICTIONS. Is a player a reason to back one team and also a reason to
+   doubt them? Is the same player framed as a strength in one preview and a
+   weakness in another? Quote both.
+2. ARITHMETIC. Do both sides' win probabilities sum to 100%? Do bust + neither +
+   boom sum to 100% for every player named? Is every floor below its ceiling?
+3. DIRECTION. Is the team with the higher projection ever described as the
+   underdog, or vice versa? Do win odds rise from floor to expected to ceiling?
+4. THE HEALTHY NUMBER. When 'as it stands' and 'if everyone plays' differ by 6
+   points or more, does the write-up actually say the game is closer than the
+   headline? That gap is the story and burying it is an error.
+5. OVERSTATEMENT. A 'coin flip' label on a game outside 46-54%. A team's ceiling
+   described as enough to win when its ceiling win odds are under 60%.
+6. ROSTER ACCURACY. Is every named player credited to the correct team?
+
+Do not comment on style, tone or jokes. Do not suggest rewrites. End with a single
+line: SEND or DO NOT SEND, and if the latter, the one problem that decides it."""
+
+
 def power_with_claude(f):    return _call(SYSTEM_POWER, f)
+def check_power_with_claude(f, md):
+    return _call(SYSTEM_POWER_CHECK, {"facts": brief(f), "document": md})
+def check_matchups_with_claude(f, md):
+    return _call(SYSTEM_MATCHUP_CHECK, {"facts": _matchup_slice(f), "document": md})
 def matchups_with_claude(f): return _call(SYSTEM_MATCHUPS, _matchup_slice(f))
 
 
@@ -273,57 +328,40 @@ def render_power_rankings(f: dict) -> str:
                    f"ceiling {s_['ceiling_p90']:.0f} · all-play {s_['all_play_pct']:.0%} "
                    f"· injury tax {t['injury_tax']['mean']:+.1f}*\n")
 
-        for l in p.get("watch", [])[:3]:
-            sp = l.get("sleeper_proj") or l["proj"]
-            out.append(f"- **Watch — {l['name']} ({l['pos']}).** Projected {sp:.1f}, "
-                       f"range {l['floor_p10']:.1f}–{l['ceiling_p90']:.1f}. Lands "
-                       f"inside the band {l['p_neither']:.0%} of the time. Their win "
-                       f"odds move {l['swing']:+.0%} between his bad weeks and his "
-                       f"good ones — {l['p_win_if_bust']:.0%} if he busts, "
-                       f"{l['p_win_if_boom']:.0%} if he booms.")
+        v = t.get("verdicts") or {}
+        notes = t.get("team_notes") or {"pros": [], "cons": []}
+        pros = sorted([(n, d) for n, d in v.items() if d["verdict"] == "pro"],
+                      key=lambda x: -x[1]["strength"])[:3]
+        cons = sorted([(n, d) for n, d in v.items() if d["verdict"] == "con"],
+                      key=lambda x: -x[1]["strength"])[:3]
 
-        for d in p.get("dislike", [])[:2]:
-            out.append(f"- **Not buying — {d['player']} ({d['pos']}).** Taken at "
-                       f"{d['pick']}; {d['why']}.")
+        out.append("**Pros**\n")
+        for line in notes["pros"]:
+            out.append(f"- {line[0].upper()}{line[1:]}.")
+        for n, d in pros:
+            out.append(f"- **{n} ({d['pos']})** — {d['reason']}. Range "
+                       f"{d['floor']:.0f}–{d['ceiling']:.0f}.")
+        if not notes["pros"] and not pros:
+            out.append("- Nothing stands out. A median roster in a tight league.")
 
-        for rc in p.get("reaches", [])[:2]:
-            mv = rc.get("pos_rank_move")
-            if mv is not None and mv > 0:
-                tail = (f"In fairness he's climbed to "
-                        f"{_ord(rc['pos_rank_now'])} at the position from "
-                        f"{_ord(rc['pos_rank_drafted'])}, so the reach is looking "
-                        f"less silly than it did on the night.")
-            elif mv is not None and mv < 0:
-                tail = (f"He's since slipped from {_ord(rc['pos_rank_drafted'])} "
-                        f"to {_ord(rc['pos_rank_now'])} at the position.")
-            else:
-                tail = (f"Still the {_ord(rc['pos_rank_now'])} {rc['pos']} by "
-                        f"rest-of-season projection.")
-            out.append(f"- **Reached — {rc['player']} ({rc['pos']}).** Pick "
-                       f"{rc['pick']} against an ADP of {rc['adp']:.0f}, a "
-                       f"{rc['reach']:.0f}-slot reach. {tail}")
-        for sl in p.get("sliding", [])[:1]:
-            out.append(f"- **Falling — {sl['player']} ({sl['pos']}).** Went "
-                       f"{_ord(sl['pos_rank_drafted'])} at his position on draft "
-                       f"day, now {_ord(sl['pos_rank_now'])}. That's "
-                       f"{abs(sl['pos_rank_move'])} spots of slide before a snap "
-                       f"was played.")
+        out.append("\n**Cons**\n")
+        for line in notes["cons"]:
+            out.append(f"- {line[0].upper()}{line[1:]}.")
+        for n, d in cons:
+            out.append(f"- **{n} ({d['pos']})** — {d['reason']}. Range "
+                       f"{d['floor']:.0f}–{d['ceiling']:.0f}.")
+        if not notes["cons"] and not cons:
+            out.append("- Nothing obviously wrong, which in this league is unusual.")
 
-        for u in p.get("upside", [])[:2]:
-            sp = u.get("sleeper_proj") or u["proj"]
-            out.append(f"- **Upside — {u['name']} ({u['pos']}).** Projected {sp:.1f} "
-                       f"with a {u['ceiling_p90']:.1f} ceiling, "
-                       f"{u['ceiling_over_proj']:+.1f} above the number. Booms "
-                       f"{u['p_boom']:.0%} of the time.")
-        for rz in p.get("risers", [])[:1]:
-            out.append(f"- **Late value — {rz['player']} ({rz['pos']}).** Round "
-                       f"{rz['round']}, pick {rz['pick']}, and he's climbed from "
-                       f"{_ord(rz['pos_rank_drafted'])} to "
-                       f"{_ord(rz['pos_rank_now'])} at the position.")
+        lead = t.get("leverage") or []
+        if lead:
+            l = lead[0]
+            out.append(f"\n**Decides their week:** {l['name']} ({l['pos']}) — win odds "
+                       f"move {l['swing']:+.0%} between his bad weeks and his good ones.")
 
         read = _read(t, f)
         if read:
-            out.append(f"- **The read.** " + "; ".join(read).capitalize() + ".")
+            out.append(f"\n**The read.** " + "; ".join(read).capitalize() + ".")
 
     out.append(f"\n---\n*Floor and ceiling are the 10th and 90th percentile of "
                f"25,000 simulated team totals. All-play is the share of simulations "

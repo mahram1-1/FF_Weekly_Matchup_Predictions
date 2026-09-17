@@ -1,7 +1,7 @@
 """Facts packet. Simulation-driven, snapshot-backed, LLM does zero arithmetic."""
 from __future__ import annotations
 from collections import defaultdict
-from . import sleeper, priors, injuries, snapshot, sources, scoring, draft as DR, analytics as A, simulate as S
+from . import sleeper, priors, injuries, snapshot, sources, scoring, draft as DR, verdict as V, analytics as A, simulate as S
 
 
 def build(league_id: str, week: int, cfg: dict, n_sims=25_000, replay=False) -> dict:
@@ -136,7 +136,8 @@ def build(league_id: str, week: int, cfg: dict, n_sims=25_000, replay=False) -> 
         # advice to the manager and is not rendered in the rankings document.
         p_, ph = prof[rid], prof_h[rid]
         tp = dpicks.get(rid, [])
-        pundit = DR.commentary(tp, set(starters), lev.get(rid, []), subs) if tp else {}
+        pundit = (DR.commentary(tp, set(starters), lev.get(rid, []), subs,
+                                rostered=set(t["players"])) if tp else {})
         blocks.append({
             "roster_id": rid, "team": t["team"], "manager": t["manager"],
             "record": f"{t['wins']}-{t['losses']}" + (f"-{t['ties']}" if t["ties"] else ""),
@@ -153,7 +154,15 @@ def build(league_id: str, week: int, cfg: dict, n_sims=25_000, replay=False) -> 
             "roster_strength_ros": roster_strength[rid],
             "leverage": lev.get(rid, [])[:4],
             "draft": tp,
-            "pundit": pundit,
+            # verdicts is the ONLY source of sentiment about a player. The draft
+            # module's older watch/upside/dislike/reach buckets are deliberately
+            # dropped here: two classifiers disagreeing about the same player is
+            # exactly how a document ends up praising and burying him. Only the
+            # roster EVENTS survive, and those carry no opinion.
+            "pundit": {k: v for k, v in (pundit or {}).items()
+                       if k in ("cut", "added")},
+            "verdicts": V.classify(lev.get(rid, []), subs, tp,
+                                   set(t["players"]), set(starters)),
             "availability": subs,
             "no_cover": [s_ for s_ in subs if s_["replacement"] == "NOBODY ELIGIBLE"],
         })
@@ -173,6 +182,12 @@ def build(league_id: str, week: int, cfg: dict, n_sims=25_000, replay=False) -> 
                                          if v["dropoff"] >= 3][:2]
             m[f"{side}_injury_tax"] = t["injury_tax"]["mean"]
             m[f"{side}_record"] = t["record"]
+
+    _ln = {"highest_ceiling": max(blocks, key=lambda b: b["sim"]["ceiling_p90"])["team"],
+           "highest_floor": max(blocks, key=lambda b: b["sim"]["floor_p10"])["team"],
+           "most_volatile": max(blocks, key=lambda b: b["sim"]["sd"])["team"]}
+    for b in blocks:
+        b["team_notes"] = V.team_notes(b, _ln)
 
     all_lev = [dict(l, team=b["team"]) for b in blocks for l in b["leverage"]]
     all_lev.sort(key=lambda r: -r["swing"])
